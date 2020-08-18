@@ -1,2 +1,2 @@
 # VulkanPBR
-This is a Vulkan PBR project based on pbrt-v3
+This is a vulkan pbr project reference from pbrt-v3
