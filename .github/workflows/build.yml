@@ -2,9 +2,9 @@ name: build
 
 on: [push, pull_request]
 
-env:
-  # Customize the CMake build type here (Release, Debug, RelWithDebInfo, etc.)
-  BUILD_TYPE: Release
+# env:
+#   # Customize the CMake build type here (Release, Debug, RelWithDebInfo, etc.)
+#   BUILD_TYPE: Release
 
 jobs:
 
@@ -26,8 +26,6 @@ jobs:
       run: |
         cmake -DBUILD_LIB=ON -DBUILD_EXAMPLE=ON ..
         make -j4
-    - name: Upload coverage to Codecov
-      uses: codecov/codecov-action@v1
     # - name: Run tests
     #   working-directory: build
     #   env:
@@ -61,8 +59,6 @@ jobs:
       run: |
         cmake -DBUILD_LIB=ON -DBUILD_EXAMPLE=ON ${{ matrix.toolset_option }} ..
         cmake --build . -j 4
-    - name: Upload coverage to Codecov
-      uses: codecov/codecov-action@v1
     # - name: Run tests
     #   working-directory: build
     #   env:
@@ -80,8 +76,6 @@ jobs:
       run: |
         cmake -DBUILD_LIB=ON -DBUILD_EXAMPLE=ON ..
         make -j4
-    - name: Upload coverage to Codecov
-      uses: codecov/codecov-action@v1
     # - name: Run tests
     #   working-directory: build
     #   env:
