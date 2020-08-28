@@ -3,10 +3,11 @@
 # Command Ignorie Folder
 !External/
 External/*
+[Bb]uild/
 # but this file
 !External/CMakeLists.txt
 !External/*.cmake
-Build/
+![Bb]uild/.gitignore
 
 ### C++ template
 # Prerequisites

@@ -10,16 +10,15 @@
   </component>
   <component name="CMakeSettings">
     <configurations>
-      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
-      <configuration PROFILE_NAME="Release" CONFIG_NAME="Release" />
-      <configuration PROFILE_NAME="RelWithDebInfo" CONFIG_NAME="RelWithDebInfo" />
-      <configuration PROFILE_NAME="MinSizeRel" CONFIG_NAME="MinSizeRel" />
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" GENERATION_DIR="build/cmake-build-debug" />
+      <configuration PROFILE_NAME="Release" CONFIG_NAME="Release" GENERATION_DIR="build/cmake-build-release" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7314c840-4a02-410b-8bcc-e08a4aa33468" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/external/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/external/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/rttr.cmake" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,14 +41,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/build" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VulkanPBR" TARGET_NAME="main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="VulkanPBR" RUN_TARGET_NAME="main">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -69,7 +70,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598605374031</updated>
-      <workItem from="1598605375075" duration="472000" />
+      <workItem from="1598605375075" duration="1413000" />
+      <workItem from="1598607432296" duration="18000" />
     </task>
     <servers />
   </component>
@@ -77,9 +79,13 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="971" y="435" key="SettingsEditor" timestamp="1598605847851">
+    <state x="640" y="553" key="FileChooserDialogImpl" timestamp="1598607100806">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="971" y="435" key="SettingsEditor/0.0.2560.1400/-1440.-310.1440.2520@0.0.2560.1400" timestamp="1598605847851" />
+    <state x="640" y="553" key="FileChooserDialogImpl/0.0.2560.1400/-1440.-310.1440.2520@0.0.2560.1400" timestamp="1598607100806" />
+    <state x="361" y="443" key="SettingsEditor" timestamp="1598607150561">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="361" y="443" key="SettingsEditor/0.0.2560.1400/-1440.-310.1440.2520@0.0.2560.1400" timestamp="1598607150561" />
   </component>
 </project>
