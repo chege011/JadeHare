@@ -41,6 +41,7 @@ endfunction()
 
 include(cxxopts.cmake)
 include(glm.cmake)
-#include(entt.cmake)
+include(entt.cmake)
 include(imgui.cmake)
+include(sdl.cmake)
 #include(usd.cmake)

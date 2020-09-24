@@ -1,8 +1,6 @@
 #include <iostream>
 #include <cxxopts.hpp>
 #include <glm/glm.hpp>
-#include <glm/vec2.hpp>
-
 
 int main(int argc, const char *argv[])
 {
@@ -49,8 +47,6 @@ int main(int argc, const char *argv[])
         std::cout << options.help() << std::endl;
         exit(0);
     }
-
-
 
     std::cout << "Hello, World!" << std::endl;
     return 0;
