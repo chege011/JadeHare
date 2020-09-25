@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cxxopts.hpp>
 #include <glm/glm.hpp>
+#include <entt/entt.hpp>
 
 int main(int argc, const char *argv[])
 {
@@ -47,6 +48,8 @@ int main(int argc, const char *argv[])
         std::cout << options.help() << std::endl;
         exit(0);
     }
+
+    entt::registry registry;
 
     std::cout << "Hello, World!" << std::endl;
     return 0;

@@ -1,13 +1,49 @@
-add_executable(main main.cpp core/math/geometry.cpp include/math/geometry.h)
-
 #add_subdirectory(utils)
 #add_subdirectory(samples)
 
-target_include_directories(main PUBLIC
-        $<BUILD_INTERFACE: ${CMAKE_CURRENT_SOURCE_DIR}/include/math>
-        $<INSTALL_INTERFACE: include/math>  # <prefix>/include/mylib
-        )
-target_link_libraries(main cxxopts EnTT)
+set(JADEHARE_CORE_SOURCE
+  core/geometry.cpp
+  )
+
+set(JADEHARE_CORE_HEADER
+  include/core/geometry.h
+  )
+
+set(JADEHARE_UTILITY_HEADER
+  include/utility/stringprint.h
+  )
+
+set(JADEHARE_HEADER
+  ${JADEHARE_CORE_HEADER}
+  ${JADEHARE_UTILITY_HEADER}
+  include/jadehare.h
+  )
+
+add_library(jadehare STATIC
+  ${JADEHARE_HEADER}
+  ${JADEHARE_CORE_SOURCE}
+  )
+
+target_include_directories(jadehare PUBLIC
+  ${CMAKE_CURRENT_SOURCE_DIR}/include
+  )
+
+target_link_libraries(jadehare
+  glog
+  EnTT
+  cxxopts
+  )
+
+add_executable(main
+  main.cpp
+  )
+
+#target_include_directories(main PUBLIC
+#  $<BUILD_INTERFACE: ${CMAKE_CURRENT_SOURCE_DIR}/include>
+#  $<INSTALL_INTERFACE: include>
+#  )
+
+target_link_libraries(main jadehare)
 
 #target_link_libraries(main utils)
 #target_link_libraries(01-init_instance utils)
