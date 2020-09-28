@@ -1,12 +1,12 @@
 # Created by .ignore support plugin (hsz.mobi)
 
 # Command Ignorie Folder
-!External/
-External/*
+![Ee]xternal/
+[Ee]xternal/*
 [Bb]uild/
 # but this file
-!External/CMakeLists.txt
-!External/*.cmake
+![Ee]xternal/CMakeLists.txt
+![Ee]xternal/*.cmake
 ![Bb]uild/.gitignore
 
 ### C++ template
