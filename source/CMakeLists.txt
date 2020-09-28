@@ -3,10 +3,11 @@
 
 set(JADEHARE_CORE_SOURCE
   core/geometry.cpp
-  )
+  core/medium.cpp)
 
 set(JADEHARE_CORE_HEADER
   include/core/geometry.h
+  include/core/medium.h
   )
 
 set(JADEHARE_UTILITY_HEADER

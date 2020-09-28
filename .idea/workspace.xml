@@ -16,16 +16,16 @@
       <config projectName="jadehare" targetName="Continuous" />
       <config projectName="jadehare" targetName="ContinuousSubmit" />
       <config projectName="jadehare" targetName="entity" />
-      <config projectName="jadehare" targetName="delegate" />
       <config projectName="jadehare" targetName="ExperimentalSubmit" />
+      <config projectName="jadehare" targetName="delegate" />
       <config projectName="jadehare" targetName="glog" />
       <config projectName="jadehare" targetName="NightlyConfigure" />
       <config projectName="jadehare" targetName="scheduler" />
       <config projectName="jadehare" targetName="NightlySubmit" />
       <config projectName="jadehare" targetName="ExperimentalStart" />
       <config projectName="jadehare" targetName="ContinuousUpdate" />
-      <config projectName="jadehare" targetName="handle" />
       <config projectName="jadehare" targetName="NightlyBuild" />
+      <config projectName="jadehare" targetName="handle" />
       <config projectName="jadehare" targetName="storage" />
       <config projectName="jadehare" targetName="emitter" />
       <config projectName="jadehare" targetName="Experimental" />
@@ -36,14 +36,14 @@
       <config projectName="jadehare" targetName="gtest" />
       <config projectName="jadehare" targetName="NightlyMemoryCheck" />
       <config projectName="jadehare" targetName="ExperimentalMemCheck" />
-      <config projectName="jadehare" targetName="SDL2-static" />
-      <config projectName="jadehare" targetName="locator" />
       <config projectName="jadehare" targetName="ContinuousStart" />
+      <config projectName="jadehare" targetName="locator" />
+      <config projectName="jadehare" targetName="SDL2-static" />
       <config projectName="jadehare" targetName="snapshot" />
       <config projectName="jadehare" targetName="jadehare" />
       <config projectName="jadehare" targetName="logging_unittest" />
-      <config projectName="jadehare" targetName="ContinuousMemCheck" />
       <config projectName="jadehare" targetName="gmock" />
+      <config projectName="jadehare" targetName="ContinuousMemCheck" />
       <config projectName="jadehare" targetName="ExperimentalBuild" />
       <config projectName="jadehare" targetName="meta_ctor" />
       <config projectName="jadehare" targetName="ident" />
@@ -59,18 +59,18 @@
       <config projectName="jadehare" targetName="meta_any" />
       <config projectName="jadehare" targetName="view" />
       <config projectName="jadehare" targetName="meta_func" />
-      <config projectName="jadehare" targetName="hashed_string" />
       <config projectName="jadehare" targetName="docs" />
+      <config projectName="jadehare" targetName="hashed_string" />
       <config projectName="jadehare" targetName="dispatcher" />
       <config projectName="jadehare" targetName="gtest_main" />
       <config projectName="jadehare" targetName="gmock_main" />
-      <config projectName="jadehare" targetName="meta_data" />
       <config projectName="jadehare" targetName="ContinuousBuild" />
+      <config projectName="jadehare" targetName="meta_data" />
       <config projectName="jadehare" targetName="monostate" />
       <config projectName="jadehare" targetName="demangle_unittest" />
       <config projectName="jadehare" targetName="helper" />
-      <config projectName="jadehare" targetName="sigh" />
       <config projectName="jadehare" targetName="meta_conv" />
+      <config projectName="jadehare" targetName="sigh" />
       <config projectName="jadehare" targetName="symbolize_unittest" />
       <config projectName="jadehare" targetName="main" />
       <config projectName="jadehare" targetName="meta_prop" />
@@ -78,21 +78,21 @@
       <config projectName="jadehare" targetName="type_info" />
       <config projectName="jadehare" targetName="SDL2main" />
       <config projectName="jadehare" targetName="ContinuousTest" />
-      <config projectName="jadehare" targetName="registry" />
-      <config projectName="jadehare" targetName="observer" />
       <config projectName="jadehare" targetName="meta_range" />
+      <config projectName="jadehare" targetName="observer" />
+      <config projectName="jadehare" targetName="registry" />
       <config projectName="jadehare" targetName="SDL2" />
       <config projectName="jadehare" targetName="ContinuousConfigure" />
       <config projectName="jadehare" targetName="process" />
+      <config projectName="jadehare" targetName="family" />
       <config projectName="jadehare" targetName="runtime_view" />
       <config projectName="jadehare" targetName="uninstall" />
-      <config projectName="jadehare" targetName="family" />
       <config projectName="jadehare" targetName="NightlyStart" />
       <config projectName="jadehare" targetName="meta_base" />
       <config projectName="jadehare" targetName="utility" />
       <config projectName="jadehare" targetName="stacktrace_unittest" />
-      <config projectName="jadehare" targetName="NightlyUpdate" />
       <config projectName="jadehare" targetName="ExperimentalUpdate" />
+      <config projectName="jadehare" targetName="NightlyUpdate" />
       <config projectName="jadehare" targetName="registry_no_eto" />
     </generated>
   </component>
@@ -104,20 +104,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7314c840-4a02-410b-8bcc-e08a4aa33468" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/external/glog.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/core/geometry.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/include/core/geometry.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/include/jadehare.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/include/utility/stringprint.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/core/medium.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/include/core/medium.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/external/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/source/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/core/math/geometry.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/include/math/geometry.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/utils/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/include/core/geometry.h" beforeDir="false" afterPath="$PROJECT_DIR$/source/include/core/geometry.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/include/jadehare.h" beforeDir="false" afterPath="$PROJECT_DIR$/source/include/jadehare.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +119,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Release" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -165,7 +157,12 @@
       <recent name="D:\G\WorkSpace\Git\VulkanPBR\source" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.jadehare">
+  <component name="RunManager" selected="CMake Application.main">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="actor" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="actor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="actor" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -561,11 +558,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="aob" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="aob" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -697,12 +689,6 @@
       <item itemvalue="CMake Application.NightlyUpdate" />
       <item itemvalue="CMake Application.docs" />
       <item itemvalue="CMake Application.odr" />
-      <item itemvalue="CMake Application.SDL2" />
-      <item itemvalue="CMake Application.SDL2-static" />
-      <item itemvalue="CMake Application.SDL2main" />
-      <item itemvalue="CMake Application.uninstall" />
-      <item itemvalue="CMake Application.jadehare" />
-      <item itemvalue="CMake Application.main" />
       <item itemvalue="CMake Application.demangle_unittest" />
       <item itemvalue="CMake Application.glog" />
       <item itemvalue="CMake Application.logging_unittest" />
@@ -711,6 +697,12 @@
       <item itemvalue="CMake Application.stl_logging_unittest" />
       <item itemvalue="CMake Application.symbolize_unittest" />
       <item itemvalue="CMake Application.utilities_unittest" />
+      <item itemvalue="CMake Application.SDL2" />
+      <item itemvalue="CMake Application.SDL2-static" />
+      <item itemvalue="CMake Application.SDL2main" />
+      <item itemvalue="CMake Application.uninstall" />
+      <item itemvalue="CMake Application.jadehare" />
+      <item itemvalue="CMake Application.main" />
       <item itemvalue="Google Test.actor" />
       <item itemvalue="Google Test.algorithm" />
       <item itemvalue="Google Test.delegate" />
@@ -772,6 +764,7 @@
       <workItem from="1600935791005" duration="6429000" />
       <workItem from="1600997603020" duration="67000" />
       <workItem from="1600997689379" duration="9162000" />
+      <workItem from="1601284583001" duration="3765000" />
     </task>
     <servers />
   </component>
@@ -787,10 +780,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1053" y="416" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/-1440.-310.1440.2520@0.0.2560.1400" timestamp="1600943310399" />
-    <state x="640" y="553" key="FileChooserDialogImpl" timestamp="1600933976427">
+    <state x="640" y="553" key="FileChooserDialogImpl" timestamp="1601284632978">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="640" y="553" key="FileChooserDialogImpl/0.0.2560.1400/-1440.-310.1440.2520@0.0.2560.1400" timestamp="1600933976427" />
+    <state x="640" y="553" key="FileChooserDialogImpl/0.0.2560.1400/-1440.-310.1440.2520@0.0.2560.1400" timestamp="1601284632978" />
     <state x="818" y="338" width="1566" height="711" key="SettingsEditor" timestamp="1601024941824">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

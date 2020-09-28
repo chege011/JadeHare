@@ -11,6 +11,7 @@
 #define JADEHARE_CORE_GEOMETRY_H
 
 #include "jadehare.h"
+#include "medium.h"
 #include "utility/stringprint.h"
 
 namespace jadehare
