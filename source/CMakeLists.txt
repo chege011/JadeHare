@@ -10,12 +10,8 @@ set(JADEHARE_CORE_HEADER
   include/core/medium.h
   )
 
-set(JADEHARE_UTILITY_HEADER
-  )
-
 set(JADEHARE_HEADER
   ${JADEHARE_CORE_HEADER}
-  ${JADEHARE_UTILITY_HEADER}
   include/jadehare.h
   )
 

@@ -202,7 +202,7 @@ namespace jadehare
 
         V Offset(const P &p) const
         {
-            Vector3<T> o = p - pMin;
+            V o = p - pMin;
             if (pMax.x > pMin.x) o.x /= pMax.x - pMin.x;
             if (pMax.y > pMin.y) o.y /= pMax.y - pMin.y;
             if (pMax.z > pMin.z) o.z /= pMax.z - pMin.z;
