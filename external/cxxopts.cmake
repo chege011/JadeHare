@@ -2,6 +2,7 @@
 # Licensed under the MIT License.
 
 set(cxxopts_REV "05ca8e1cacb5db9152411ad8df1d2d61f0fe82aa")
+set(cxxopts_TAG "v2.2.1")
 
 UpdateExternalLib("cxxopts" "https://github.com/jarro2783/cxxopts.git" ${cxxopts_REV})
 

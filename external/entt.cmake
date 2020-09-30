@@ -1,6 +1,6 @@
-set(entt_REV "27209e4836ceabea6a8476ce7864a15745e25b6c")
+set(entt_TAG "v3.5.2")
 
-UpdateExternalLib("entt" "https://github.com/skypjack/entt.git" ${entt_REV})
+UpdateExternalLibTag("entt" "https://github.com/skypjack/entt.git" ${entt_TAG})
 
 set(BUILD_DOCS ON CACHE BOOL "" FORCE)
 

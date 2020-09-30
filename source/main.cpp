@@ -2,6 +2,7 @@
 #include <cxxopts.hpp>
 #include <glm/glm.hpp>
 #include <entt/entt.hpp>
+#include "core/geometry.h"
 
 int main(int argc, const char *argv[])
 {
@@ -50,6 +51,8 @@ int main(int argc, const char *argv[])
     }
 
     entt::registry registry;
+
+    jadehare::Bounds2f bounds2F;
 
     std::cout << "Hello, World!" << std::endl;
     return 0;

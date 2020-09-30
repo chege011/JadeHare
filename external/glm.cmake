@@ -1,5 +1,5 @@
-set(glm_REV "2929ad5a663597139276c10ef905d91e568fdc48")
+set(glm_TAG "0.9.9.8")
 
-UpdateExternalLib("glm" "https://github.com/g-truc/glm.git" ${glm_REV})
+UpdateExternalLibTag("glm" "https://github.com/g-truc/glm.git" ${glm_TAG})
 
 add_subdirectory(glm EXCLUDE_FROM_ALL)

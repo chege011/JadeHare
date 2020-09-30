@@ -11,7 +11,6 @@ set(JADEHARE_CORE_HEADER
   )
 
 set(JADEHARE_UTILITY_HEADER
-  include/utility/stringprint.h
   )
 
 set(JADEHARE_HEADER
@@ -25,14 +24,17 @@ add_library(jadehare STATIC
   ${JADEHARE_CORE_SOURCE}
   )
 
+add_library(jadehare::jadehare ALIAS jadehare)
+
 target_include_directories(jadehare PUBLIC
   ${CMAKE_CURRENT_SOURCE_DIR}/include
   )
 
 target_link_libraries(jadehare
-  glog
-  EnTT
-  cxxopts
+  EnTT::EnTT
+  cxxopts::cxxopts
+  spdlog::spdlog
+  glm::glm
   )
 
 add_executable(main
@@ -44,7 +46,7 @@ add_executable(main
 #  $<INSTALL_INTERFACE: include>
 #  )
 
-target_link_libraries(main jadehare)
+target_link_libraries(main jadehare::jadehare)
 
 #target_link_libraries(main utils)
 #target_link_libraries(01-init_instance utils)
