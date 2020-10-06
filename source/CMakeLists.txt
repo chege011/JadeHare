@@ -1,41 +1,45 @@
 #add_subdirectory(utils)
 #add_subdirectory(samples)
 
-set(JADEHARE_CORE_SOURCE
-  core/geometry.cpp
-  core/medium.cpp)
+set(JADEHARE_INCLUDE_DIR
+        ${jadehare_SOURCE_DIR}/include
+        )
 
-set(JADEHARE_CORE_HEADER
-  include/core/geometry.h
-  include/core/medium.h
-  )
+message(STATUS "SOURCE PATH: ${jadehare_SOURCE_DIR}")
 
 set(JADEHARE_HEADER
-  ${JADEHARE_CORE_HEADER}
-  include/jadehare.h
-  )
+        ${JADEHARE_INCLUDE_DIR}/jadehare.h
+        ${JADEHARE_INCLUDE_DIR}/util/vecmath.h
+        ${JADEHARE_INCLUDE_DIR}/util/check.h
+        )
+
+
+set(JADEHARE_CORE_SOURCE
+        util/vecmath.cpp
+        )
 
 add_library(jadehare STATIC
-  ${JADEHARE_HEADER}
-  ${JADEHARE_CORE_SOURCE}
-  )
+        ${JADEHARE_CORE_SOURCE}
+        )
 
 add_library(jadehare::jadehare ALIAS jadehare)
 
 target_include_directories(jadehare PUBLIC
-  ${CMAKE_CURRENT_SOURCE_DIR}/include
-  )
+        ${JADEHARE_INCLUDE_DIR}
+        )
+
+message(STATUS "INCLUDE PATH: ${JADEHARE_INCLUDE_DIR}")
 
 target_link_libraries(jadehare
-  EnTT::EnTT
-  cxxopts::cxxopts
-  spdlog::spdlog
-  glm::glm
-  )
+        EnTT::EnTT
+        cxxopts::cxxopts
+        spdlog::spdlog
+        glm::glm
+        )
 
 add_executable(main
-  main.cpp
-  )
+        main.cpp
+        )
 
 #target_include_directories(main PUBLIC
 #  $<BUILD_INTERFACE: ${CMAKE_CURRENT_SOURCE_DIR}/include>

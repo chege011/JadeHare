@@ -2,7 +2,7 @@
 #include <cxxopts.hpp>
 #include <glm/glm.hpp>
 #include <entt/entt.hpp>
-#include "core/geometry.h"
+#include "util/vecmath.h"
 
 int main(int argc, const char *argv[])
 {
@@ -44,15 +44,28 @@ int main(int argc, const char *argv[])
 
     auto result = options.parse(argc, argv);
 
-    if (argc <= 1 || result.count("help"))
-    {
-        std::cout << options.help() << std::endl;
-        exit(0);
-    }
+//    if (argc <= 1 || result.count("help"))
+//    {
+//        std::cout << options.help() << std::endl;
+//        exit(0);
+//    }
 
     entt::registry registry;
 
-    jadehare::Bounds2f bounds2F;
+    jadehare::Vector3f vector3;
+
+    glm::vec2 vew23 {1.3, 3.6};
+    glm::vec3 ve222;
+    glm::vec3 wqe;
+    jadehare::Vector3f vector3F;
+    jadehare::Vector3f ve231(1.0f, 1.0f, 1.0f);
+    vector3 += vector3F + vector3;
+
+    auto xx = ve231 * 3;
+    xx /= 2;
+
+    ve231[2] = 12;
+    vector3 = ve231;
 
     std::cout << "Hello, World!" << std::endl;
     return 0;

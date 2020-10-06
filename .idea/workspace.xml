@@ -13,8 +13,8 @@
       <config projectName="jadehare" targetName="Continuous" />
       <config projectName="jadehare" targetName="ContinuousSubmit" />
       <config projectName="jadehare" targetName="entity" />
-      <config projectName="jadehare" targetName="ExperimentalSubmit" />
       <config projectName="jadehare" targetName="delegate" />
+      <config projectName="jadehare" targetName="ExperimentalSubmit" />
       <config projectName="jadehare" targetName="NightlyConfigure" />
       <config projectName="jadehare" targetName="scheduler" />
       <config projectName="jadehare" targetName="NightlySubmit" />
@@ -29,17 +29,17 @@
       <config projectName="jadehare" targetName="Nightly" />
       <config projectName="jadehare" targetName="resource" />
       <config projectName="jadehare" targetName="type_traits" />
-      <config projectName="jadehare" targetName="gtest" />
       <config projectName="jadehare" targetName="NightlyMemoryCheck" />
+      <config projectName="jadehare" targetName="gtest" />
       <config projectName="jadehare" targetName="ExperimentalMemCheck" />
+      <config projectName="jadehare" targetName="SDL2-static" />
       <config projectName="jadehare" targetName="ContinuousStart" />
       <config projectName="jadehare" targetName="locator" />
-      <config projectName="jadehare" targetName="SDL2-static" />
       <config projectName="jadehare" targetName="snapshot" />
       <config projectName="jadehare" targetName="jadehare" />
       <config projectName="jadehare" targetName="spdlog" />
-      <config projectName="jadehare" targetName="gmock" />
       <config projectName="jadehare" targetName="ContinuousMemCheck" />
+      <config projectName="jadehare" targetName="gmock" />
       <config projectName="jadehare" targetName="ExperimentalBuild" />
       <config projectName="jadehare" targetName="meta_ctor" />
       <config projectName="jadehare" targetName="ident" />
@@ -51,41 +51,40 @@
       <config projectName="jadehare" targetName="aob" />
       <config projectName="jadehare" targetName="actor" />
       <config projectName="jadehare" targetName="meta_type" />
-      <config projectName="jadehare" targetName="NightlyCoverage" />
       <config projectName="jadehare" targetName="meta_any" />
+      <config projectName="jadehare" targetName="NightlyCoverage" />
       <config projectName="jadehare" targetName="view" />
       <config projectName="jadehare" targetName="meta_func" />
-      <config projectName="jadehare" targetName="docs" />
       <config projectName="jadehare" targetName="hashed_string" />
       <config projectName="jadehare" targetName="dispatcher" />
       <config projectName="jadehare" targetName="gtest_main" />
       <config projectName="jadehare" targetName="gmock_main" />
-      <config projectName="jadehare" targetName="ContinuousBuild" />
       <config projectName="jadehare" targetName="meta_data" />
+      <config projectName="jadehare" targetName="ContinuousBuild" />
       <config projectName="jadehare" targetName="monostate" />
       <config projectName="jadehare" targetName="helper" />
-      <config projectName="jadehare" targetName="meta_conv" />
       <config projectName="jadehare" targetName="sigh" />
+      <config projectName="jadehare" targetName="meta_conv" />
       <config projectName="jadehare" targetName="main" />
       <config projectName="jadehare" targetName="meta_prop" />
       <config projectName="jadehare" targetName="ExperimentalCoverage" />
       <config projectName="jadehare" targetName="type_info" />
       <config projectName="jadehare" targetName="SDL2main" />
       <config projectName="jadehare" targetName="ContinuousTest" />
-      <config projectName="jadehare" targetName="meta_range" />
       <config projectName="jadehare" targetName="observer" />
+      <config projectName="jadehare" targetName="meta_range" />
       <config projectName="jadehare" targetName="registry" />
       <config projectName="jadehare" targetName="SDL2" />
-      <config projectName="jadehare" targetName="ContinuousConfigure" />
       <config projectName="jadehare" targetName="process" />
-      <config projectName="jadehare" targetName="family" />
-      <config projectName="jadehare" targetName="runtime_view" />
+      <config projectName="jadehare" targetName="ContinuousConfigure" />
       <config projectName="jadehare" targetName="uninstall" />
+      <config projectName="jadehare" targetName="runtime_view" />
+      <config projectName="jadehare" targetName="family" />
       <config projectName="jadehare" targetName="NightlyStart" />
       <config projectName="jadehare" targetName="meta_base" />
       <config projectName="jadehare" targetName="utility" />
-      <config projectName="jadehare" targetName="ExperimentalUpdate" />
       <config projectName="jadehare" targetName="NightlyUpdate" />
+      <config projectName="jadehare" targetName="ExperimentalUpdate" />
       <config projectName="jadehare" targetName="registry_no_eto" />
     </generated>
   </component>
@@ -97,8 +96,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7314c840-4a02-410b-8bcc-e08a4aa33468" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/include/util/check.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/util/float.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/util/vecmath.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/util/vecmath.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/external/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/external/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/source/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/core/geometry.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/core/medium.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/include/core/geometry.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/include/core/medium.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/include/jadehare.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/jadehare.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/samples/CMakeLists.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +119,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Release" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -126,478 +137,435 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/build/cmake-build-debug/_deps/googletest-build/Makefile&#10;D:/G/WorkSpace/JadeHare/external/glm/glm/detail/type_vec3.inl&#10;D:/G/WorkSpace/JadeHare/external/glm/glm/detail/type_vec2.hpp" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CMakeLists.txt" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.CMake" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\G\WorkSpace\JadeHare\include\util" />
+      <recent name="D:\G\WorkSpace\JadeHare" />
       <recent name="D:\G\WorkSpace\Git\OfflineWork\JadeHare\external" />
       <recent name="D:\G\WorkSpace\Git\OfflineWork\JadeHare\external\cmake" />
       <recent name="D:\G\WorkSpace\Git\OfflineWork\VulkanPBR\source\include" />
-      <recent name="D:\G\WorkSpace\Git\OfflineWork\VulkanPBR\source\include\core" />
-      <recent name="D:\G\WorkSpace\Git\OfflineWork\VulkanPBR\source\core" />
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.main">
-    <configuration name="actor" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="actor" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="actor" TEST_MODE="SUITE_TEST">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="algorithm" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="algorithm" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="algorithm" TEST_MODE="SUITE_TEST">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="delegate" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="delegate" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="delegate" TEST_MODE="SUITE_TEST">
+    <configuration name="Continuous" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="Continuous" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dispatcher" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="dispatcher" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="dispatcher" TEST_MODE="SUITE_TEST">
+    <configuration name="ContinuousBuild" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="ContinuousBuild" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="ContinuousBuild">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="emitter" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="emitter" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="emitter" TEST_MODE="SUITE_TEST">
+    <configuration name="ContinuousConfigure" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="ContinuousConfigure" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="ContinuousConfigure">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="entity" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="entity" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="entity" TEST_MODE="SUITE_TEST">
+    <configuration name="ContinuousCoverage" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="ContinuousCoverage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="ContinuousCoverage">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="family" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="family" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="family" TEST_MODE="SUITE_TEST">
+    <configuration name="ContinuousMemCheck" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="ContinuousMemCheck" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="ContinuousMemCheck">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="group" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="group" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="group" TEST_MODE="SUITE_TEST">
+    <configuration name="ContinuousStart" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="ContinuousStart" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="ContinuousStart">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="handle" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="handle" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="handle" TEST_MODE="SUITE_TEST">
+    <configuration name="ContinuousSubmit" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="ContinuousSubmit" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="ContinuousSubmit">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hashed_string" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="hashed_string" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="hashed_string" TEST_MODE="SUITE_TEST">
+    <configuration name="ContinuousTest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="ContinuousTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="ContinuousTest">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="helper" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="helper" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="helper" TEST_MODE="SUITE_TEST">
+    <configuration name="ContinuousUpdate" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="ContinuousUpdate" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="ContinuousUpdate">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ident" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="ident" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="ident" TEST_MODE="SUITE_TEST">
+    <configuration name="Experimental" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="Experimental" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="locator" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="locator" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="locator" TEST_MODE="SUITE_TEST">
+    <configuration name="ExperimentalBuild" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="ExperimentalBuild" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="ExperimentalBuild">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="meta_any" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="meta_any" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="meta_any" TEST_MODE="SUITE_TEST">
+    <configuration name="ExperimentalConfigure" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="ExperimentalConfigure" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="ExperimentalConfigure">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="meta_base" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="meta_base" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="meta_base" TEST_MODE="SUITE_TEST">
+    <configuration name="ExperimentalCoverage" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="ExperimentalCoverage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="ExperimentalCoverage">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="meta_container" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="meta_container" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="meta_container" TEST_MODE="SUITE_TEST">
+    <configuration name="ExperimentalMemCheck" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="ExperimentalMemCheck" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="ExperimentalMemCheck">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="meta_conv" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="meta_conv" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="meta_conv" TEST_MODE="SUITE_TEST">
+    <configuration name="ExperimentalStart" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="ExperimentalStart" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="ExperimentalStart">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="meta_ctor" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="meta_ctor" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="meta_ctor" TEST_MODE="SUITE_TEST">
+    <configuration name="ExperimentalSubmit" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="ExperimentalSubmit" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="ExperimentalSubmit">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="meta_data" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="meta_data" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="meta_data" TEST_MODE="SUITE_TEST">
+    <configuration name="ExperimentalTest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="ExperimentalTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="ExperimentalTest">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="meta_func" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="meta_func" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="meta_func" TEST_MODE="SUITE_TEST">
+    <configuration name="ExperimentalUpdate" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="ExperimentalUpdate" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="ExperimentalUpdate">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="meta_pointer" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="meta_pointer" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="meta_pointer" TEST_MODE="SUITE_TEST">
+    <configuration name="Nightly" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="Nightly" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="meta_prop" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="meta_prop" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="meta_prop" TEST_MODE="SUITE_TEST">
+    <configuration name="NightlyBuild" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="NightlyBuild" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="NightlyBuild">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="meta_range" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="meta_range" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="meta_range" TEST_MODE="SUITE_TEST">
+    <configuration name="NightlyConfigure" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="NightlyConfigure" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="NightlyConfigure">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="meta_type" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="meta_type" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="meta_type" TEST_MODE="SUITE_TEST">
+    <configuration name="NightlyCoverage" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="NightlyCoverage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="NightlyCoverage">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="monostate" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="monostate" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="monostate" TEST_MODE="SUITE_TEST">
+    <configuration name="NightlyMemCheck" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="NightlyMemCheck" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="NightlyMemCheck">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="observer" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="observer" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="observer" TEST_MODE="SUITE_TEST">
+    <configuration name="NightlyMemoryCheck" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="NightlyMemoryCheck" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="NightlyMemoryCheck">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="process" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="process" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="process" TEST_MODE="SUITE_TEST">
+    <configuration name="NightlyStart" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="NightlyStart" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="NightlyStart">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="registry" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="registry" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="registry" TEST_MODE="SUITE_TEST">
+    <configuration name="NightlySubmit" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="NightlySubmit" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="NightlySubmit">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="registry_no_eto" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="registry_no_eto" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="registry_no_eto" TEST_MODE="SUITE_TEST">
+    <configuration name="NightlyTest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="NightlyTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="NightlyTest">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="resource" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="resource" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="resource" TEST_MODE="SUITE_TEST">
+    <configuration name="NightlyUpdate" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="NightlyUpdate" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="NightlyUpdate">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="runtime_view" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="runtime_view" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="runtime_view" TEST_MODE="SUITE_TEST">
+    <configuration name="SDL2-static" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="SDL2-static" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="scheduler" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="scheduler" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="scheduler" TEST_MODE="SUITE_TEST">
+    <configuration name="SDL2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="SDL2" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sigh" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="sigh" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="sigh" TEST_MODE="SUITE_TEST">
+    <configuration name="SDL2main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="SDL2main" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="snapshot" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="snapshot" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="snapshot" TEST_MODE="SUITE_TEST">
+    <configuration name="actor" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="actor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="actor">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sparse_set" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="sparse_set" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="sparse_set" TEST_MODE="SUITE_TEST">
+    <configuration name="algorithm" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="algorithm" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="algorithm">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="storage" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="storage" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="storage" TEST_MODE="SUITE_TEST">
+    <configuration name="aob" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="aob" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="type_info" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="type_info" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="type_info" TEST_MODE="SUITE_TEST">
+    <configuration name="delegate" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="delegate" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="delegate">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="type_traits" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="type_traits" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="type_traits" TEST_MODE="SUITE_TEST">
+    <configuration name="dispatcher" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="dispatcher" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="dispatcher">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="utility" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="utility" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="utility" TEST_MODE="SUITE_TEST">
+    <configuration name="emitter" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="emitter" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="emitter">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="view" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="view" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="view" TEST_MODE="SUITE_TEST">
+    <configuration name="entity" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="entity" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="entity">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Continuous" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="Continuous" CONFIG_NAME="Release">
+    <configuration name="family" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="family" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="family">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContinuousBuild" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="ContinuousBuild" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="ContinuousBuild">
+    <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="gmock" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContinuousConfigure" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="ContinuousConfigure" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="ContinuousConfigure">
+    <configuration name="gmock_main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="gmock_main" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContinuousCoverage" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="ContinuousCoverage" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="ContinuousCoverage">
+    <configuration name="group" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="group" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="group">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContinuousMemCheck" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="ContinuousMemCheck" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="ContinuousMemCheck">
+    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="gtest" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContinuousStart" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="ContinuousStart" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="ContinuousStart">
+    <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="gtest_main" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContinuousSubmit" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="ContinuousSubmit" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="ContinuousSubmit">
+    <configuration name="handle" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="handle" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="handle">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContinuousTest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="ContinuousTest" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="ContinuousTest">
+    <configuration name="hashed_string" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="hashed_string" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="hashed_string">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContinuousUpdate" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="ContinuousUpdate" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="ContinuousUpdate">
+    <configuration name="helper" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="helper" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="helper">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Experimental" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="Experimental" CONFIG_NAME="Release">
+    <configuration name="ident" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="ident" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="ident">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExperimentalBuild" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="ExperimentalBuild" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="ExperimentalBuild">
+    <configuration name="jadehare" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="jadehare" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExperimentalConfigure" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="ExperimentalConfigure" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="ExperimentalConfigure">
+    <configuration name="locator" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="locator" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="locator">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExperimentalCoverage" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="ExperimentalCoverage" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="ExperimentalCoverage">
+    <configuration name="main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="main">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExperimentalMemCheck" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="ExperimentalMemCheck" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="ExperimentalMemCheck">
+    <configuration name="meta_any" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="meta_any" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="meta_any">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExperimentalStart" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="ExperimentalStart" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="ExperimentalStart">
+    <configuration name="meta_base" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="meta_base" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="meta_base">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExperimentalSubmit" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="ExperimentalSubmit" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="ExperimentalSubmit">
+    <configuration name="meta_container" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="meta_container" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="meta_container">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExperimentalTest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="ExperimentalTest" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="ExperimentalTest">
+    <configuration name="meta_conv" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="meta_conv" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="meta_conv">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExperimentalUpdate" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="ExperimentalUpdate" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="ExperimentalUpdate">
+    <configuration name="meta_ctor" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="meta_ctor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="meta_ctor">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Nightly" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="Nightly" CONFIG_NAME="Release">
+    <configuration name="meta_data" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="meta_data" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="meta_data">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NightlyBuild" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="NightlyBuild" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="NightlyBuild">
+    <configuration name="meta_func" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="meta_func" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="meta_func">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NightlyConfigure" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="NightlyConfigure" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="NightlyConfigure">
+    <configuration name="meta_pointer" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="meta_pointer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="meta_pointer">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NightlyCoverage" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="NightlyCoverage" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="NightlyCoverage">
+    <configuration name="meta_prop" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="meta_prop" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="meta_prop">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NightlyMemCheck" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="NightlyMemCheck" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="NightlyMemCheck">
+    <configuration name="meta_range" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="meta_range" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="meta_range">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NightlyMemoryCheck" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="NightlyMemoryCheck" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="NightlyMemoryCheck">
+    <configuration name="meta_type" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="meta_type" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="meta_type">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NightlyStart" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="NightlyStart" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="NightlyStart">
+    <configuration name="monostate" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="monostate" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="monostate">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NightlySubmit" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="NightlySubmit" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="NightlySubmit">
+    <configuration name="observer" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="observer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="observer">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NightlyTest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="NightlyTest" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="NightlyTest">
+    <configuration name="odr" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="odr" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NightlyUpdate" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="NightlyUpdate" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="NightlyUpdate">
+    <configuration name="process" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="process" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="process">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SDL2-static" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="SDL2-static" CONFIG_NAME="Release">
+    <configuration name="registry" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="registry" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="registry">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SDL2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="SDL2" CONFIG_NAME="Release">
+    <configuration name="registry_no_eto" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="registry_no_eto" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="registry_no_eto">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SDL2main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="SDL2main" CONFIG_NAME="Release">
+    <configuration name="resource" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="resource" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="resource">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="runtime_view" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="runtime_view" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="runtime_view">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="aob" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="aob" CONFIG_NAME="Release">
+    <configuration name="scheduler" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="scheduler" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="scheduler">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="docs" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="docs" CONFIG_NAME="Release">
+    <configuration name="sigh" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="sigh" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="sigh">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="gmock" CONFIG_NAME="Release">
+    <configuration name="snapshot" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="snapshot" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="snapshot">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gmock_main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="gmock_main" CONFIG_NAME="Release">
+    <configuration name="sparse_set" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="sparse_set" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="sparse_set">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="gtest" CONFIG_NAME="Release">
+    <configuration name="spdlog" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="spdlog" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="gtest_main" CONFIG_NAME="Release">
+    <configuration name="storage" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="storage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="storage">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="jadehare" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="jadehare" CONFIG_NAME="Release">
+    <configuration name="type_info" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="type_info" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="type_info">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="main" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="main">
+    <configuration name="type_traits" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="type_traits" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="type_traits">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="odr" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="odr" CONFIG_NAME="Release">
+    <configuration name="uninstall" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="uninstall" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="spdlog" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="spdlog" CONFIG_NAME="Release">
+    <configuration name="utility" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="utility" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="utility">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="uninstall" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="uninstall" CONFIG_NAME="Release">
+    <configuration name="view" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="view" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="view">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -641,8 +609,47 @@
       <item itemvalue="CMake Application.NightlySubmit" />
       <item itemvalue="CMake Application.NightlyTest" />
       <item itemvalue="CMake Application.NightlyUpdate" />
-      <item itemvalue="CMake Application.docs" />
+      <item itemvalue="CMake Application.actor" />
+      <item itemvalue="CMake Application.algorithm" />
+      <item itemvalue="CMake Application.delegate" />
+      <item itemvalue="CMake Application.dispatcher" />
+      <item itemvalue="CMake Application.emitter" />
+      <item itemvalue="CMake Application.entity" />
+      <item itemvalue="CMake Application.family" />
+      <item itemvalue="CMake Application.group" />
+      <item itemvalue="CMake Application.handle" />
+      <item itemvalue="CMake Application.hashed_string" />
+      <item itemvalue="CMake Application.helper" />
+      <item itemvalue="CMake Application.ident" />
+      <item itemvalue="CMake Application.locator" />
+      <item itemvalue="CMake Application.meta_any" />
+      <item itemvalue="CMake Application.meta_base" />
+      <item itemvalue="CMake Application.meta_container" />
+      <item itemvalue="CMake Application.meta_conv" />
+      <item itemvalue="CMake Application.meta_ctor" />
+      <item itemvalue="CMake Application.meta_data" />
+      <item itemvalue="CMake Application.meta_func" />
+      <item itemvalue="CMake Application.meta_pointer" />
+      <item itemvalue="CMake Application.meta_prop" />
+      <item itemvalue="CMake Application.meta_range" />
+      <item itemvalue="CMake Application.meta_type" />
+      <item itemvalue="CMake Application.monostate" />
+      <item itemvalue="CMake Application.observer" />
       <item itemvalue="CMake Application.odr" />
+      <item itemvalue="CMake Application.process" />
+      <item itemvalue="CMake Application.registry" />
+      <item itemvalue="CMake Application.registry_no_eto" />
+      <item itemvalue="CMake Application.resource" />
+      <item itemvalue="CMake Application.runtime_view" />
+      <item itemvalue="CMake Application.scheduler" />
+      <item itemvalue="CMake Application.sigh" />
+      <item itemvalue="CMake Application.snapshot" />
+      <item itemvalue="CMake Application.sparse_set" />
+      <item itemvalue="CMake Application.storage" />
+      <item itemvalue="CMake Application.type_info" />
+      <item itemvalue="CMake Application.type_traits" />
+      <item itemvalue="CMake Application.utility" />
+      <item itemvalue="CMake Application.view" />
       <item itemvalue="CMake Application.SDL2" />
       <item itemvalue="CMake Application.SDL2-static" />
       <item itemvalue="CMake Application.SDL2main" />
@@ -650,49 +657,12 @@
       <item itemvalue="CMake Application.spdlog" />
       <item itemvalue="CMake Application.jadehare" />
       <item itemvalue="CMake Application.main" />
-      <item itemvalue="Google Test.actor" />
-      <item itemvalue="Google Test.algorithm" />
-      <item itemvalue="Google Test.delegate" />
-      <item itemvalue="Google Test.dispatcher" />
-      <item itemvalue="Google Test.emitter" />
-      <item itemvalue="Google Test.entity" />
-      <item itemvalue="Google Test.family" />
-      <item itemvalue="Google Test.group" />
-      <item itemvalue="Google Test.handle" />
-      <item itemvalue="Google Test.hashed_string" />
-      <item itemvalue="Google Test.helper" />
-      <item itemvalue="Google Test.ident" />
-      <item itemvalue="Google Test.locator" />
-      <item itemvalue="Google Test.meta_any" />
-      <item itemvalue="Google Test.meta_base" />
-      <item itemvalue="Google Test.meta_container" />
-      <item itemvalue="Google Test.meta_conv" />
-      <item itemvalue="Google Test.meta_ctor" />
-      <item itemvalue="Google Test.meta_data" />
-      <item itemvalue="Google Test.meta_func" />
-      <item itemvalue="Google Test.meta_pointer" />
-      <item itemvalue="Google Test.meta_prop" />
-      <item itemvalue="Google Test.meta_range" />
-      <item itemvalue="Google Test.meta_type" />
-      <item itemvalue="Google Test.monostate" />
-      <item itemvalue="Google Test.observer" />
-      <item itemvalue="Google Test.process" />
-      <item itemvalue="Google Test.registry" />
-      <item itemvalue="Google Test.registry_no_eto" />
-      <item itemvalue="Google Test.resource" />
-      <item itemvalue="Google Test.runtime_view" />
-      <item itemvalue="Google Test.scheduler" />
-      <item itemvalue="Google Test.sigh" />
-      <item itemvalue="Google Test.snapshot" />
-      <item itemvalue="Google Test.sparse_set" />
-      <item itemvalue="Google Test.storage" />
-      <item itemvalue="Google Test.type_info" />
-      <item itemvalue="Google Test.type_traits" />
-      <item itemvalue="Google Test.utility" />
-      <item itemvalue="Google Test.view" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="7314c840-4a02-410b-8bcc-e08a4aa33468" name="Default Changelist" comment="" />
@@ -713,6 +683,8 @@
       <workItem from="1600997689379" duration="9162000" />
       <workItem from="1601284583001" duration="3765000" />
       <workItem from="1601344556340" duration="32305000" />
+      <workItem from="1601879462057" duration="10768000" />
+      <workItem from="1601966820745" duration="8195000" />
     </task>
     <servers />
   </component>
@@ -720,6 +692,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1512" y="362" key="#Intentions" timestamp="1601973451441">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1512" y="362" key="#Intentions/0.0.2560.1400/-1920.0.1280.680@0.0.2560.1400" timestamp="1601973451441" />
     <state x="560" y="395" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600918771818">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -732,29 +708,89 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1053" y="416" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/-1440.-310.1440.2520@0.0.2560.1400" timestamp="1600943310399" />
-    <state x="1478" y="596" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601371092705">
+    <state x="1478" y="596" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601880330669">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1478" y="596" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/-1440.-310.1440.2520@0.0.2560.1400" timestamp="1601371092705" />
-    <state x="640" y="553" key="FileChooserDialogImpl" timestamp="1601284632978">
+    <state x="1478" y="596" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/-1920.0.1280.680@0.0.2560.1400" timestamp="1601880330669" />
+    <state x="640" y="553" key="FileChooserDialogImpl" timestamp="1601879590935">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="640" y="553" key="FileChooserDialogImpl/0.0.2560.1400/-1440.-310.1440.2520@0.0.2560.1400" timestamp="1601284632978" />
-    <state x="818" y="338" width="1566" height="711" key="SettingsEditor" timestamp="1601024941824">
+    <state x="640" y="553" key="FileChooserDialogImpl/0.0.2560.1400/-1920.0.1280.680@0.0.2560.1400" timestamp="1601879590935" />
+    <state width="1234" height="491" key="GridCell.Tab.0.bottom" timestamp="1601978300930">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="491" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.0.1280.680@0.0.2560.1400" timestamp="1601978300930" />
+    <state width="1240" height="400" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1601897908828" />
+    <state width="1234" height="491" key="GridCell.Tab.0.center" timestamp="1601978300930">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="491" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.0.1280.680@0.0.2560.1400" timestamp="1601978300930" />
+    <state width="1240" height="400" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1601897908828" />
+    <state width="1234" height="491" key="GridCell.Tab.0.left" timestamp="1601978300930">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="491" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.0.1280.680@0.0.2560.1400" timestamp="1601978300930" />
+    <state width="1240" height="400" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1601897908828" />
+    <state width="1234" height="491" key="GridCell.Tab.0.right" timestamp="1601978300930">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="491" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.0.1280.680@0.0.2560.1400" timestamp="1601978300930" />
+    <state width="1240" height="400" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1601897908828" />
+    <state width="1234" height="491" key="GridCell.Tab.1.bottom" timestamp="1601978300930">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="491" key="GridCell.Tab.1.bottom/0.0.2560.1400/-1920.0.1280.680@0.0.2560.1400" timestamp="1601978300930" />
+    <state width="1234" height="491" key="GridCell.Tab.1.center" timestamp="1601978300930">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="491" key="GridCell.Tab.1.center/0.0.2560.1400/-1920.0.1280.680@0.0.2560.1400" timestamp="1601978300930" />
+    <state width="1234" height="491" key="GridCell.Tab.1.left" timestamp="1601978300930">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="491" key="GridCell.Tab.1.left/0.0.2560.1400/-1920.0.1280.680@0.0.2560.1400" timestamp="1601978300930" />
+    <state width="1234" height="491" key="GridCell.Tab.1.right" timestamp="1601978300930">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="491" key="GridCell.Tab.1.right/0.0.2560.1400/-1920.0.1280.680@0.0.2560.1400" timestamp="1601978300930" />
+    <state x="409" y="345" width="1566" height="711" key="SettingsEditor" timestamp="1601973498117">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="818" y="338" width="1566" height="711" key="SettingsEditor/0.0.2560.1400/-1440.-310.1440.2520@0.0.2560.1400" timestamp="1601024941824" />
+    <state x="409" y="345" key="SettingsEditor/0.0.2560.1400/-1920.0.1280.680@0.0.2560.1400" timestamp="1601973498117" />
     <state x="921" y="402" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600935374663">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="921" y="402" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.2560.1400/-1440.-310.1440.2520@0.0.2560.1400" timestamp="1600935374663" />
-    <state x="557" y="687" width="773" height="536" key="find.popup" timestamp="1601432713317">
+    <state x="1709" y="621" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601973661900">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1709" y="621" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400/-1920.0.1280.680@0.0.2560.1400" timestamp="1601973661900" />
+    <state x="557" y="687" width="786" height="600" key="find.popup" timestamp="1601885227265">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="557" y="687" width="773" height="536" key="find.popup/0.0.2560.1400/-1440.-310.1440.2520@0.0.2560.1400" timestamp="1601432713317" />
+    <state x="557" y="687" width="786" height="600" key="find.popup/0.0.2560.1400/-1920.0.1280.680@0.0.2560.1400" timestamp="1601885227265" />
     <state x="1046" y="425" width="672" height="678" key="search.everywhere.popup" timestamp="1600768568268">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1046" y="425" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/-1440.-310.1440.2520@0.0.2560.1400" timestamp="1600768568268" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/include/util/check.h</url>
+          <line>84</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/source/main.cpp</url>
+          <line>63</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
