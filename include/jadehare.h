@@ -15,6 +15,7 @@
 #include <cassert>
 
 #include <glm/glm.hpp>
+#include <glm/gtc/quaternion.hpp>
 
 #if defined(PBRT_BUILD_GPU_RENDERER) && defined(__CUDACC__)
 #ifndef PBRT_NOINLINE
@@ -37,16 +38,21 @@ namespace jadehare {
 
     using FloatBits = uint32_t;
 
-    template <typename T>
+    template<typename T>
     class Vector2;
-    template <typename T>
+
+    template<typename T>
     class Vector3;
-    template <typename T>
+
+    template<typename T>
     class Point3;
-    template <typename T>
+
+    template<typename T>
     class Point2;
-    template <typename T>
+
+    template<typename T>
     class Normal3;
+
     using Point2f = Point2<float>;
     using Point2i = Point2<int>;
     using Point3f = Point3<float>;
@@ -54,12 +60,15 @@ namespace jadehare {
     using Vector2i = Vector2<int>;
     using Vector3f = Vector3<float>;
 
-    template <typename T>
+    template<typename T>
     class Bounds2;
+
     using Bounds2f = Bounds2<float>;
     using Bounds2i = Bounds2<int>;
-    template <typename T>
+
+    template<typename T>
     class Bounds3;
+
     using Bounds3f = Bounds3<float>;
     using Bounds3i = Bounds3<int>;
 }

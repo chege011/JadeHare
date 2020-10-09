@@ -64,6 +64,12 @@ int main(int argc, const char *argv[])
     auto xx = ve231 * 3;
     xx /= 2;
 
+    jadehare::Quaternion quaternion;
+    jadehare::Quaternion xqweqsqe;
+    glm::quat we;
+    glm::quat wx {1, 2, 3, 4};
+    we = wx + we;
+
     ve231[2] = 12;
     vector3 = ve231;
 
