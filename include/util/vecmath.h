@@ -28,6 +28,10 @@ namespace jadehare {
         using glm::vec<2, T, glm::defaultp>::x;
         using glm::vec<2, T, glm::defaultp>::y;
 
+        using glm::vec<2, T, glm::defaultp>::operator*=;
+        using glm::vec<2, T, glm::defaultp>::operator/=;
+        using glm::vec<2, T, glm::defaultp>::operator[];
+
         static const int nDimensions = 2;
 
         Tuple2() = default;
@@ -37,11 +41,13 @@ namespace jadehare {
         [[nodiscard]] bool HasNaN() const { return IsNaN(x) || IsNaN(y); }
 
 #ifndef NDEBUG
-
         // The default versions of these are fine for release builds; for debug
         // we define them so that we can add the Assert checks.
-        Tuple2(const Child<T> &c) : glm::vec<2, T, glm::defaultp>{c.x, c.y} {
+
+        Tuple2(const Child<T> &c) {
             DCHECK(!c.HasNaN());
+            x = c.x;
+            y = c.y;
         }
 
         Child<T> &operator=(const Child<T> &c) {
@@ -50,31 +56,28 @@ namespace jadehare {
             y = c.y;
             return static_cast<Child<T> &>(*this);
         }
-
 #endif  // !NDEBUG
 
-        template<typename U>
-        auto operator+(const Child<U> &c) const -> Child<decltype(T{} + U{})> {
+        template <typename U>
+         auto operator+(const Child<U> &c) const -> Child<decltype(T{} + U{})> {
             DCHECK(!c.HasNaN());
             return {x + c.x, y + c.y};
         }
-
-        template<typename U>
-        Child<T> &operator+=(const Child<U> &c) {
+        template <typename U>
+         Child<T> &operator+=(const Child<U> &c) {
             DCHECK(!c.HasNaN());
             x += c.x;
             y += c.y;
             return static_cast<Child<T> &>(*this);
         }
 
-        template<typename U>
-        auto operator-(const Child<U> &c) const -> Child<decltype(T{} - U{})> {
+        template <typename U>
+         auto operator-(const Child<U> &c) const -> Child<decltype(T{} - U{})> {
             DCHECK(!c.HasNaN());
             return {x - c.x, y - c.y};
         }
-
-        template<typename U>
-        Child<T> &operator-=(const Child<U> &c) {
+        template <typename U>
+         Child<T> &operator-=(const Child<U> &c) {
             DCHECK(!c.HasNaN());
             x -= c.x;
             y -= c.y;
@@ -84,19 +87,36 @@ namespace jadehare {
 
         bool operator==(const Child<T> &c) const { return x == c.x && y == c.y; }
 
-
         bool operator!=(const Child<T> &c) const { return x != c.x || y != c.y; }
 
-        template<typename U>
-        auto operator*(U s) const -> Child<decltype(T{} * U{})> {
+        template <typename U>
+         auto operator*(U s) const -> Child<decltype(T{} * U{})> {
             return {s * x, s * y};
         }
 
-        template<typename U>
-        auto operator/(U d) const -> Child<decltype(T{} / U{})> {
+//        template <typename U>
+//         Child<T> &operator*=(U s) {
+//            DCHECK(!IsNaN(s));
+//            x *= s;
+//            y *= s;
+//            return static_cast<Child<T> &>(*this);
+//        }
+
+        template <typename U>
+         auto operator/(U d) const -> Child<decltype(T{} / U{})> {
             DCHECK(d != 0 && !IsNaN(d));
             return {x / d, y / d};
         }
+
+//        template <typename U>
+//         Child<T> &operator/=(U d) {
+//            DCHECK_NE(d, 0);
+//            DCHECK(!IsNaN(d));
+//            x /= d;
+//            y /= d;
+//            return static_cast<Child<T> &>(*this);
+//        }
+
 
         Child<T> operator-() const { return {-x, -y}; }
     };
@@ -202,6 +222,8 @@ namespace jadehare {
         using glm::vec<3, T, glm::defaultp>::y;
         using glm::vec<3, T, glm::defaultp>::z;
 
+        using glm::vec<3, T, glm::defaultp>::operator*=;
+        using glm::vec<3, T, glm::defaultp>::operator/=;
         using glm::vec<3, T, glm::defaultp>::operator[];
 
         Tuple3() = default;
@@ -210,19 +232,43 @@ namespace jadehare {
 
         [[nodiscard]] bool HasNaN() const { return IsNaN(x) || IsNaN(y) || IsNaN(z); }
 
-        template<typename U>
-        auto operator+(const Child<U> &c) const -> Child<decltype(T{} + U{})> {
+
+//        T operator[](int i) const {
+//            DCHECK(i >= 0 && i <= 2);
+//            if (i == 0)
+//                return x;
+//            if (i == 1)
+//                return y;
+//            return z;
+//        }
+//
+//
+//        T &operator[](int i) {
+//            DCHECK(i >= 0 && i <= 2);
+//            if (i == 0)
+//                return x;
+//            if (i == 1)
+//                return y;
+//            return z;
+//        }
+
+        template <typename U>
+         auto operator+(const Child<U> &c) const -> Child<decltype(T{} + U{})> {
             DCHECK(!c.HasNaN());
             return {x + c.x, y + c.y, z + c.z};
         }
 
 #ifndef NDEBUG
-
         // The default versions of these are fine for release builds; for debug
         // we define them so that we can add the Assert checks.
-        Tuple3(const Child<T> &c) : glm::vec<3, T, glm::defaultp>{c.x, c.y, c.z} {
+
+        Tuple3(const Child<T> &c) {
             DCHECK(!c.HasNaN());
+            x = c.x;
+            y = c.y;
+            z = c.z;
         }
+
 
         Child<T> &operator=(const Child<T> &c) {
             DCHECK(!c.HasNaN());
@@ -231,11 +277,10 @@ namespace jadehare {
             z = c.z;
             return static_cast<Child<T> &>(*this);
         }
-
 #endif  // !NDEBUG
 
-        template<typename U>
-        Child<T> &operator+=(const Child<U> &c) {
+        template <typename U>
+         Child<T> &operator+=(const Child<U> &c) {
             DCHECK(!c.HasNaN());
             x += c.x;
             y += c.y;
@@ -243,14 +288,13 @@ namespace jadehare {
             return static_cast<Child<T> &>(*this);
         }
 
-        template<typename U>
-        auto operator-(const Child<U> &c) const -> Child<decltype(T{} - U{})> {
+        template <typename U>
+         auto operator-(const Child<U> &c) const -> Child<decltype(T{} - U{})> {
             DCHECK(!c.HasNaN());
             return {x - c.x, y - c.y, z - c.z};
         }
-
-        template<typename U>
-        Child<T> &operator-=(const Child<U> &c) {
+        template <typename U>
+         Child<T> &operator-=(const Child<U> &c) {
             DCHECK(!c.HasNaN());
             x -= c.x;
             y -= c.y;
@@ -258,20 +302,38 @@ namespace jadehare {
             return static_cast<Child<T> &>(*this);
         }
 
+
         bool operator==(const Child<T> &c) const { return x == c.x && y == c.y && z == c.z; }
 
         bool operator!=(const Child<T> &c) const { return x != c.x || y != c.y || z != c.z; }
 
-        template<typename U>
-        auto operator*(U s) const -> Child<decltype(T{} * U{})> {
+        template <typename U>
+         auto operator*(U s) const -> Child<decltype(T{} * U{})> {
             return {s * x, s * y, s * z};
         }
 
-        template<typename U>
-        auto operator/(U d) const -> Child<decltype(T{} / U{})> {
+//        template <typename U>
+//         Child<T> &operator*=(U s) {
+//            DCHECK(!IsNaN(s));
+//            x *= s;
+//            y *= s;
+//            z *= s;
+//            return static_cast<Child<T> &>(*this);
+//        }
+
+        template <typename U>
+         auto operator/(U d) const -> Child<decltype(T{} / U{})> {
             DCHECK_NE(d, 0);
             return {x / d, y / d, z / d};
         }
+//        template <typename U>
+//         Child<T> &operator/=(U d) {
+//            DCHECK_NE(d, 0);
+//            x /= d;
+//            y /= d;
+//            z /= d;
+//            return static_cast<Child<T> &>(*this);
+//        }
 
         Child<T> operator-() const { return {-x, -y, -z}; }
     };
@@ -381,8 +443,8 @@ namespace jadehare {
         template<typename U>
         explicit Vector2(const Point2<U> &p) : Tuple2<Vector2, T>(T(p.x), T(p.y)) {}
 
-        template<typename U>
-        explicit Vector2(const Vector2<U> &v);
+        template <typename U>
+        explicit Vector2(const Vector2<U> &v) : Tuple2<Vector2, T>(T(v.x), T(v.y)) {}
     };
 
     // Vector3 Definition
@@ -402,10 +464,10 @@ namespace jadehare {
         explicit Vector3(const Vector3<U> &v) : Tuple3<Vector3, T>(T(v.x), T(v.y), T(v.z)) {}
 
         template<typename U>
-        explicit Vector3(const Point3<U> &p);
+        explicit Vector3(const Point3<U> &p): Tuple3<Vector3, T>(T(p.x), T(p.y), T(p.z)) {}
 
         template<typename U>
-        explicit Vector3(const Normal3<U> &n);
+        explicit Vector3(const Normal3<U> &n): Tuple3<Vector3, T>(T(n.x), T(n.y), T(n.z)) {}
     };
 
     // Vector2* definitions
@@ -488,7 +550,7 @@ namespace jadehare {
         }
     };
 
-// Point3 Definition
+    // Point3 Definition
     template<typename T>
     class Point3 : public Tuple3<Point3, T> {
     public:
@@ -501,6 +563,7 @@ namespace jadehare {
         using Tuple3<Point3, T>::operator+=;
         using Tuple3<Point3, T>::operator*;
         using Tuple3<Point3, T>::operator*=;
+        using Tuple3<Point3, T>::operator-;
 
         Point3() = default;
 
@@ -517,6 +580,7 @@ namespace jadehare {
 
         template<typename U>
         auto operator+(const Vector3<U> &v) const
+
         -> Point3<decltype(T{} + U{})> {
             DCHECK(!v.HasNaN());
             return {x + v.x, y + v.y, z + v.z};
@@ -584,15 +648,15 @@ namespace jadehare {
 
         Normal3() = default;
 
-        PBRT_CPU_GPU
+
         Normal3(T x, T y, T z) : Tuple3<Normal3, T>(x, y, z) {}
 
         template<typename U>
-        PBRT_CPU_GPU explicit Normal3<T>(const Normal3<U> &v)
+         explicit Normal3<T>(const Normal3<U> &v)
                 : Tuple3<Normal3, T>(T(v.x), T(v.y), T(v.z)) {}
 
         template<typename U>
-        PBRT_CPU_GPU explicit Normal3<T>(const Vector3<U> &v)
+         explicit Normal3<T>(const Vector3<U> &v)
                 : Tuple3<Normal3, T>(T(v.x), T(v.y), T(v.z)) {}
     };
 
