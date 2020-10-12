@@ -2,27 +2,33 @@
 // Created by chege on 2020/10/5.
 //
 
-#ifndef JADEHARE_VECMATH_H
-#define JADEHARE_VECMATH_H
+#ifndef JADEHARE_UTIL_VECMATH_H
+#define JADEHARE_UTIL_VECMATH_H
 
 #include <jadehare.h>
 #include <util/check.h>
 #include <util/float.h>
+#include <util/math.h>
 
-namespace {
-    inline float FMA(float a, float b, float c) {
+namespace
+{
+    inline float FMA(float a, float b, float c)
+    {
         return std::fma(a, b, c);
     }
 
-    inline double FMA(double a, double b, double c) {
+    inline double FMA(double a, double b, double c)
+    {
         return std::fma(a, b, c);
     }
 }
 
-namespace jadehare {
+namespace jadehare
+{
     // Tuple2 Definition
     template<template<typename> class Child, typename T>
-    class Tuple2 : public glm::vec<2, T, glm::defaultp> {
+    class Tuple2 : public glm::vec<2, T, glm::defaultp>
+    {
     public:
         // Tuple2 Public Methods
         using glm::vec<2, T, glm::defaultp>::x;
@@ -36,48 +42,59 @@ namespace jadehare {
 
         Tuple2() = default;
 
-        Tuple2(T x, T y) : glm::vec<2, T, glm::defaultp>{x, y} { DCHECK(!HasNaN()); }
+        Tuple2(T x, T y) : glm::vec<2, T, glm::defaultp>{x, y}
+        { DCHECK(!HasNaN()); }
 
-        [[nodiscard]] bool HasNaN() const { return IsNaN(x) || IsNaN(y); }
+        [[nodiscard]] bool HasNaN() const
+        { return IsNaN(x) || IsNaN(y); }
 
 #ifndef NDEBUG
         // The default versions of these are fine for release builds; for debug
         // we define them so that we can add the Assert checks.
 
-        Tuple2(const Child<T> &c) {
+        Tuple2(const Child<T> &c)
+        {
             DCHECK(!c.HasNaN());
             x = c.x;
             y = c.y;
         }
 
-        Child<T> &operator=(const Child<T> &c) {
+        Child<T> &operator=(const Child<T> &c)
+        {
             DCHECK(!c.HasNaN());
             x = c.x;
             y = c.y;
             return static_cast<Child<T> &>(*this);
         }
+
 #endif  // !NDEBUG
 
-        template <typename U>
-         auto operator+(const Child<U> &c) const -> Child<decltype(T{} + U{})> {
+        template<typename U>
+        auto operator+(const Child<U> &c) const -> Child<decltype(T{} + U{})>
+        {
             DCHECK(!c.HasNaN());
             return {x + c.x, y + c.y};
         }
-        template <typename U>
-         Child<T> &operator+=(const Child<U> &c) {
+
+        template<typename U>
+        Child<T> &operator+=(const Child<U> &c)
+        {
             DCHECK(!c.HasNaN());
             x += c.x;
             y += c.y;
             return static_cast<Child<T> &>(*this);
         }
 
-        template <typename U>
-         auto operator-(const Child<U> &c) const -> Child<decltype(T{} - U{})> {
+        template<typename U>
+        auto operator-(const Child<U> &c) const -> Child<decltype(T{} - U{})>
+        {
             DCHECK(!c.HasNaN());
             return {x - c.x, y - c.y};
         }
-        template <typename U>
-         Child<T> &operator-=(const Child<U> &c) {
+
+        template<typename U>
+        Child<T> &operator-=(const Child<U> &c)
+        {
             DCHECK(!c.HasNaN());
             x -= c.x;
             y -= c.y;
@@ -85,12 +102,15 @@ namespace jadehare {
         }
 
 
-        bool operator==(const Child<T> &c) const { return x == c.x && y == c.y; }
+        bool operator==(const Child<T> &c) const
+        { return x == c.x && y == c.y; }
 
-        bool operator!=(const Child<T> &c) const { return x != c.x || y != c.y; }
+        bool operator!=(const Child<T> &c) const
+        { return x != c.x || y != c.y; }
 
-        template <typename U>
-         auto operator*(U s) const -> Child<decltype(T{} * U{})> {
+        template<typename U>
+        auto operator*(U s) const -> Child<decltype(T{} * U{})>
+        {
             return {s * x, s * y};
         }
 
@@ -102,8 +122,9 @@ namespace jadehare {
 //            return static_cast<Child<T> &>(*this);
 //        }
 
-        template <typename U>
-         auto operator/(U d) const -> Child<decltype(T{} / U{})> {
+        template<typename U>
+        auto operator/(U d) const -> Child<decltype(T{} / U{})>
+        {
             DCHECK(d != 0 && !IsNaN(d));
             return {x / d, y / d};
         }
@@ -118,83 +139,97 @@ namespace jadehare {
 //        }
 
 
-        Child<T> operator-() const { return {-x, -y}; }
+        Child<T> operator-() const
+        { return {-x, -y}; }
     };
 
     // Tuple2 Inline Functions
 #pragma region Tuple2 Inline Functions
 
     template<template<class> class C, typename T, typename U>
-    inline auto operator*(U s, const Tuple2<C, T> &t) -> C<decltype(T{} * U{})> {
+    inline auto operator*(U s, const Tuple2<C, T> &t) -> C<decltype(T{} * U{})>
+    {
         DCHECK(!t.HasNaN());
         return t * s;
     }
 
     template<template<class> class C, typename T>
-    inline C<T> Abs(const Tuple2<C, T> &t) {
+    inline C<T> Abs(const Tuple2<C, T> &t)
+    {
         // "argument-dependent lookup..." (here and elsewhere)
         using std::abs;
         return {abs(t.x), abs(t.y)};
     }
 
     template<template<class> class C, typename T>
-    inline C<T> Ceil(const Tuple2<C, T> &t) {
+    inline C<T> Ceil(const Tuple2<C, T> &t)
+    {
         using std::ceil;
         return {ceil(t.x), ceil(t.y)};
     }
 
     template<template<class> class C, typename T>
-    inline C<T> Floor(const Tuple2<C, T> &t) {
+    inline C<T> Floor(const Tuple2<C, T> &t)
+    {
         using std::floor;
         return {floor(t.x), floor(t.y)};
     }
 
     template<template<class> class C, typename T>
-    inline auto Lerp(float t, const Tuple2<C, T> &t0, const Tuple2<C, T> &t1) {
+    inline auto Lerp(float t, const Tuple2<C, T> &t0, const Tuple2<C, T> &t1)
+    {
         return (1 - t) * t0 + t * t1;
     }
 
     template<template<class> class C, typename T>
-    inline C<T> FMA(float a, const Tuple2<C, T> &b, const Tuple2<C, T> &c) {
+    inline C<T> FMA(float a, const Tuple2<C, T> &b, const Tuple2<C, T> &c)
+    {
         return {FMA(a, b.x, c.x), FMA(a, b.y, c.y)};
     }
 
     template<template<class> class C, typename T>
-    inline C<T> FMA(const Tuple2<C, T> &a, float b, const Tuple2<C, T> &c) {
+    inline C<T> FMA(const Tuple2<C, T> &a, float b, const Tuple2<C, T> &c)
+    {
         return FMA(b, a, c);
     }
 
     template<template<class> class C, typename T>
-    inline C<T> Min(const Tuple2<C, T> &t0, const Tuple2<C, T> &t1) {
+    inline C<T> Min(const Tuple2<C, T> &t0, const Tuple2<C, T> &t1)
+    {
         using std::min;
         return {min(t0.x, t1.x), min(t0.y, t1.y)};
     }
 
     template<template<class> class C, typename T>
-    inline T MinComponentValue(const Tuple2<C, T> &t) {
+    inline T MinComponentValue(const Tuple2<C, T> &t)
+    {
         using std::min;
         return min({t.x, t.y});
     }
 
     template<template<class> class C, typename T>
-    inline int MinComponentIndex(const Tuple2<C, T> &t) {
+    inline int MinComponentIndex(const Tuple2<C, T> &t)
+    {
         return (t.x < t.y) ? 0 : 1;
     }
 
     template<template<class> class C, typename T>
-    inline C<T> Max(const Tuple2<C, T> &t0, const Tuple2<C, T> &t1) {
+    inline C<T> Max(const Tuple2<C, T> &t0, const Tuple2<C, T> &t1)
+    {
         using std::max;
         return {max(t0.x, t1.x), max(t0.y, t1.y)};
     }
 
     template<template<class> class C, typename T>
-    inline T MaxComponentValue(const Tuple2<C, T> &t) {
+    inline T MaxComponentValue(const Tuple2<C, T> &t)
+    {
         using std::max;
         return max({t.x, t.y});
     }
 
     template<template<class> class C, typename T>
-    inline int MaxComponentIndex(const Tuple2<C, T> &t) {
+    inline int MaxComponentIndex(const Tuple2<C, T> &t)
+    {
         return (t.x > t.y) ? 0 : 1;
     }
 
@@ -205,7 +240,8 @@ namespace jadehare {
 //    }
 
     template<template<class> class C, typename T>
-    inline T HProd(const Tuple2<C, T> &t) {
+    inline T HProd(const Tuple2<C, T> &t)
+    {
         return t.x * t.y;
     }
 
@@ -213,7 +249,8 @@ namespace jadehare {
 
     // Tuple3 Definition
     template<template<typename> class Child, typename T>
-    class Tuple3 : public glm::vec<3, T, glm::defaultp> {
+    class Tuple3 : public glm::vec<3, T, glm::defaultp>
+    {
     public:
         static const int nDimensions = 3;
 
@@ -228,9 +265,11 @@ namespace jadehare {
 
         Tuple3() = default;
 
-        Tuple3(T x, T y, T z) : glm::vec<3, T, glm::defaultp>{x, y, z} { DCHECK(!HasNaN()); }
+        Tuple3(T x, T y, T z) : glm::vec<3, T, glm::defaultp>{x, y, z}
+        { DCHECK(!HasNaN()); }
 
-        [[nodiscard]] bool HasNaN() const { return IsNaN(x) || IsNaN(y) || IsNaN(z); }
+        [[nodiscard]] bool HasNaN() const
+        { return IsNaN(x) || IsNaN(y) || IsNaN(z); }
 
 
 //        T operator[](int i) const {
@@ -252,8 +291,9 @@ namespace jadehare {
 //            return z;
 //        }
 
-        template <typename U>
-         auto operator+(const Child<U> &c) const -> Child<decltype(T{} + U{})> {
+        template<typename U>
+        auto operator+(const Child<U> &c) const -> Child<decltype(T{} + U{})>
+        {
             DCHECK(!c.HasNaN());
             return {x + c.x, y + c.y, z + c.z};
         }
@@ -262,7 +302,8 @@ namespace jadehare {
         // The default versions of these are fine for release builds; for debug
         // we define them so that we can add the Assert checks.
 
-        Tuple3(const Child<T> &c) {
+        Tuple3(const Child<T> &c)
+        {
             DCHECK(!c.HasNaN());
             x = c.x;
             y = c.y;
@@ -270,17 +311,20 @@ namespace jadehare {
         }
 
 
-        Child<T> &operator=(const Child<T> &c) {
+        Child<T> &operator=(const Child<T> &c)
+        {
             DCHECK(!c.HasNaN());
             x = c.x;
             y = c.y;
             z = c.z;
             return static_cast<Child<T> &>(*this);
         }
+
 #endif  // !NDEBUG
 
-        template <typename U>
-         Child<T> &operator+=(const Child<U> &c) {
+        template<typename U>
+        Child<T> &operator+=(const Child<U> &c)
+        {
             DCHECK(!c.HasNaN());
             x += c.x;
             y += c.y;
@@ -288,13 +332,16 @@ namespace jadehare {
             return static_cast<Child<T> &>(*this);
         }
 
-        template <typename U>
-         auto operator-(const Child<U> &c) const -> Child<decltype(T{} - U{})> {
+        template<typename U>
+        auto operator-(const Child<U> &c) const -> Child<decltype(T{} - U{})>
+        {
             DCHECK(!c.HasNaN());
             return {x - c.x, y - c.y, z - c.z};
         }
-        template <typename U>
-         Child<T> &operator-=(const Child<U> &c) {
+
+        template<typename U>
+        Child<T> &operator-=(const Child<U> &c)
+        {
             DCHECK(!c.HasNaN());
             x -= c.x;
             y -= c.y;
@@ -303,12 +350,15 @@ namespace jadehare {
         }
 
 
-        bool operator==(const Child<T> &c) const { return x == c.x && y == c.y && z == c.z; }
+        bool operator==(const Child<T> &c) const
+        { return x == c.x && y == c.y && z == c.z; }
 
-        bool operator!=(const Child<T> &c) const { return x != c.x || y != c.y || z != c.z; }
+        bool operator!=(const Child<T> &c) const
+        { return x != c.x || y != c.y || z != c.z; }
 
-        template <typename U>
-         auto operator*(U s) const -> Child<decltype(T{} * U{})> {
+        template<typename U>
+        auto operator*(U s) const -> Child<decltype(T{} * U{})>
+        {
             return {s * x, s * y, s * z};
         }
 
@@ -321,8 +371,9 @@ namespace jadehare {
 //            return static_cast<Child<T> &>(*this);
 //        }
 
-        template <typename U>
-         auto operator/(U d) const -> Child<decltype(T{} / U{})> {
+        template<typename U>
+        auto operator/(U d) const -> Child<decltype(T{} / U{})>
+        {
             DCHECK_NE(d, 0);
             return {x / d, y / d, z / d};
         }
@@ -335,81 +386,95 @@ namespace jadehare {
 //            return static_cast<Child<T> &>(*this);
 //        }
 
-        Child<T> operator-() const { return {-x, -y, -z}; }
+        Child<T> operator-() const
+        { return {-x, -y, -z}; }
     };
 
     // Tuple3 Inline Functions
 #pragma region Tuple3 Inline Functions
 
     template<template<class> class C, typename T, typename U>
-    inline auto operator*(U s, const Tuple3<C, T> &t) -> C<decltype(T{} * U{})> {
+    inline auto operator*(U s, const Tuple3<C, T> &t) -> C<decltype(T{} * U{})>
+    {
         return t * s;
     }
 
     template<template<class> class C, typename T>
-    inline C<T> Abs(const Tuple3<C, T> &t) {
+    inline C<T> Abs(const Tuple3<C, T> &t)
+    {
         using std::abs;
         return {abs(t.x), abs(t.y), abs(t.z)};
     }
 
     template<template<class> class C, typename T>
-    inline C<T> Ceil(const Tuple3<C, T> &t) {
+    inline C<T> Ceil(const Tuple3<C, T> &t)
+    {
         using std::ceil;
         return {ceil(t.x), ceil(t.y), ceil(t.z)};
     }
 
     template<template<class> class C, typename T>
-    inline C<T> Floor(const Tuple3<C, T> &t) {
+    inline C<T> Floor(const Tuple3<C, T> &t)
+    {
         using std::floor;
         return {floor(t.x), floor(t.y), floor(t.z)};
     }
 
     template<template<class> class C, typename T>
-    inline auto Lerp(float t, const Tuple3<C, T> &t0, const Tuple3<C, T> &t1) {
+    inline auto Lerp(float t, const Tuple3<C, T> &t0, const Tuple3<C, T> &t1)
+    {
         return (1 - t) * t0 + t * t1;
     }
 
     template<template<class> class C, typename T>
-    inline C<T> FMA(float a, const Tuple3<C, T> &b, const Tuple3<C, T> &c) {
+    inline C<T> FMA(float a, const Tuple3<C, T> &b, const Tuple3<C, T> &c)
+    {
         return {FMA(a, b.x, c.x), FMA(a, b.y, c.y), FMA(a, b.z, c.z)};
     }
 
     template<template<class> class C, typename T>
-    inline C<T> FMA(const Tuple3<C, T> &a, float b, const Tuple3<C, T> &c) {
+    inline C<T> FMA(const Tuple3<C, T> &a, float b, const Tuple3<C, T> &c)
+    {
         return FMA(b, a, c);
     }
 
     template<template<class> class C, typename T>
-    inline C<T> Min(const Tuple3<C, T> &t1, const Tuple3<C, T> &t2) {
+    inline C<T> Min(const Tuple3<C, T> &t1, const Tuple3<C, T> &t2)
+    {
         using std::min;
         return {min(t1.x, t2.x), min(t1.y, t2.y), min(t1.z, t2.z)};
     }
 
     template<template<class> class C, typename T>
-    inline T MinComponentValue(const Tuple3<C, T> &t) {
+    inline T MinComponentValue(const Tuple3<C, T> &t)
+    {
         using std::min;
         return min({t.x, t.y, t.z});
     }
 
     template<template<class> class C, typename T>
-    inline int MinComponentIndex(const Tuple3<C, T> &t) {
+    inline int MinComponentIndex(const Tuple3<C, T> &t)
+    {
         return (t.x < t.y) ? ((t.x < t.z) ? 0 : 2) : ((t.y < t.z) ? 1 : 2);
     }
 
     template<template<class> class C, typename T>
-    inline C<T> Max(const Tuple3<C, T> &t1, const Tuple3<C, T> &t2) {
+    inline C<T> Max(const Tuple3<C, T> &t1, const Tuple3<C, T> &t2)
+    {
         using std::max;
         return {max(t1.x, t2.x), max(t1.y, t2.y), max(t1.z, t2.z)};
     }
 
     template<template<class> class C, typename T>
-    inline T MaxComponentValue(const Tuple3<C, T> &t) {
+    inline T MaxComponentValue(const Tuple3<C, T> &t)
+    {
         using std::max;
         return max({t.x, t.y, t.z});
     }
 
     template<template<class> class C, typename T>
-    inline int MaxComponentIndex(const Tuple3<C, T> &t) {
+    inline int MaxComponentIndex(const Tuple3<C, T> &t)
+    {
         return (t.x > t.y) ? ((t.x > t.z) ? 0 : 2) : ((t.y > t.z) ? 1 : 2);
     }
 
@@ -420,7 +485,8 @@ namespace jadehare {
 //    }
 
     template<template<class> class C, typename T>
-    inline T HProd(const Tuple3<C, T> &t) {
+    inline T HProd(const Tuple3<C, T> &t)
+    {
         return t.x * t.y * t.z;
     }
 
@@ -430,7 +496,8 @@ namespace jadehare {
 
     // Vector2 Definition
     template<typename T>
-    class Vector2 : public Tuple2<Vector2, T> {
+    class Vector2 : public Tuple2<Vector2, T>
+    {
     public:
         // Vector2 Public Methods
         using Tuple2<Vector2, T>::x;
@@ -438,18 +505,22 @@ namespace jadehare {
 
         Vector2() = default;
 
-        Vector2(T x, T y) : Tuple2<Vector2, T>{x, y} {}
+        Vector2(T x, T y) : Tuple2<Vector2, T>{x, y}
+        {}
 
         template<typename U>
-        explicit Vector2(const Point2<U> &p) : Tuple2<Vector2, T>(T(p.x), T(p.y)) {}
+        explicit Vector2(const Point2<U> &p) : Tuple2<Vector2, T>(T(p.x), T(p.y))
+        {}
 
-        template <typename U>
-        explicit Vector2(const Vector2<U> &v) : Tuple2<Vector2, T>(T(v.x), T(v.y)) {}
+        template<typename U>
+        explicit Vector2(const Vector2<U> &v) : Tuple2<Vector2, T>(T(v.x), T(v.y))
+        {}
     };
 
     // Vector3 Definition
     template<typename T>
-    class Vector3 : public Tuple3<Vector3, T> {
+    class Vector3 : public Tuple3<Vector3, T>
+    {
     public:
         // Vector3 Public Methods
         using Tuple3<Vector3, T>::x;
@@ -458,16 +529,23 @@ namespace jadehare {
 
         Vector3() = default;
 
-        Vector3(T x, T y, T z) : Tuple3<Vector3, T>(x, y, z) {}
+        Vector3(T x, T y, T z) : Tuple3<Vector3, T>(x, y, z)
+        {}
+
+//        explicit Vector3(glm::vec<3, T, glm::defaultp> v) : Tuple3<Vector3, T>(v.x, v.y, v.z)
+//        {}
 
         template<typename U>
-        explicit Vector3(const Vector3<U> &v) : Tuple3<Vector3, T>(T(v.x), T(v.y), T(v.z)) {}
+        explicit Vector3(const Vector3<U> &v) : Tuple3<Vector3, T>(T(v.x), T(v.y), T(v.z))
+        {}
 
         template<typename U>
-        explicit Vector3(const Point3<U> &p): Tuple3<Vector3, T>(T(p.x), T(p.y), T(p.z)) {}
+        explicit Vector3(const Point3<U> &p): Tuple3<Vector3, T>(T(p.x), T(p.y), T(p.z))
+        {}
 
         template<typename U>
-        explicit Vector3(const Normal3<U> &n): Tuple3<Vector3, T>(T(n.x), T(n.y), T(n.z)) {}
+        explicit Vector3(const Normal3<U> &n): Tuple3<Vector3, T>(T(n.x), T(n.y), T(n.z))
+        {}
     };
 
     // Vector2* definitions
@@ -484,7 +562,8 @@ namespace jadehare {
 
     // Point2 Definition
     template<typename T>
-    class Point2 : public Tuple2<Point2, T> {
+    class Point2 : public Tuple2<Point2, T>
+    {
     public:
         // Point2 Public Methods
         using Tuple2<Point2, T>::x;
@@ -496,28 +575,34 @@ namespace jadehare {
         using Tuple2<Point2, T>::operator*=;
 
 
-        Point2() { x = y = 0; }
+        Point2()
+        { x = y = 0; }
 
 
-        Point2(T x, T y) : Tuple2<Point2, T>(x, y) {}
+        Point2(T x, T y) : Tuple2<Point2, T>(x, y)
+        {}
 
         template<typename U>
         explicit Point2(const Point2<U> &v)
-                : Tuple2<Point2, T>(T(v.x), T(v.y)) {}
+                : Tuple2<Point2, T>(T(v.x), T(v.y))
+        {}
 
         template<typename U>
         explicit Point2(const Vector2<U> &v)
-                : Tuple2<Point2, T>(T(v.x), T(v.y)) {}
+                : Tuple2<Point2, T>(T(v.x), T(v.y))
+        {}
 
         template<typename U>
         auto operator+(const Vector2<U> &v) const
-        -> Point2<decltype(T{} + U{})> {
+        -> Point2<decltype(T{} + U{})>
+        {
             DCHECK(!v.HasNaN());
             return {x + v.x, y + v.y};
         }
 
         template<typename U>
-        Point2<T> &operator+=(const Vector2<U> &v) {
+        Point2<T> &operator+=(const Vector2<U> &v)
+        {
             DCHECK(!v.HasNaN());
             x += v.x;
             y += v.y;
@@ -529,20 +614,23 @@ namespace jadehare {
         // instead...
         template<typename U>
         auto operator-(const Point2<U> &p) const
-        -> Vector2<decltype(T{} - U{})> {
+        -> Vector2<decltype(T{} - U{})>
+        {
             DCHECK(!p.HasNaN());
             return {x - p.x, y - p.y};
         }
 
         template<typename U>
         auto operator-(const Vector2<U> &v) const
-        -> Point2<decltype(T{} - U{})> {
+        -> Point2<decltype(T{} - U{})>
+        {
             DCHECK(!v.HasNaN());
             return {x - v.x, y - v.y};
         }
 
         template<typename U>
-        Point2<T> &operator-=(const Vector2<U> &v) {
+        Point2<T> &operator-=(const Vector2<U> &v)
+        {
             DCHECK(!v.HasNaN());
             x -= v.x;
             y -= v.y;
@@ -552,7 +640,8 @@ namespace jadehare {
 
     // Point3 Definition
     template<typename T>
-    class Point3 : public Tuple3<Point3, T> {
+    class Point3 : public Tuple3<Point3, T>
+    {
     public:
         // Point3 Public Methods
         using Tuple3<Point3, T>::x;
@@ -568,26 +657,31 @@ namespace jadehare {
         Point3() = default;
 
 
-        Point3(T x, T y, T z) : Tuple3<Point3, T>(x, y, z) {}
+        Point3(T x, T y, T z) : Tuple3<Point3, T>(x, y, z)
+        {}
 
         template<typename U>
         explicit Point3(const Point3<U> &p)
-                : Tuple3<Point3, T>(T(p.x), T(p.y), T(p.z)) {}
+                : Tuple3<Point3, T>(T(p.x), T(p.y), T(p.z))
+        {}
 
         template<typename U>
         explicit Point3(const Vector3<U> &v)
-                : Tuple3<Point3, T>(T(v.x), T(v.y), T(v.z)) {}
+                : Tuple3<Point3, T>(T(v.x), T(v.y), T(v.z))
+        {}
 
         template<typename U>
         auto operator+(const Vector3<U> &v) const
 
-        -> Point3<decltype(T{} + U{})> {
+        -> Point3<decltype(T{} + U{})>
+        {
             DCHECK(!v.HasNaN());
             return {x + v.x, y + v.y, z + v.z};
         }
 
         template<typename U>
-        Point3<T> &operator+=(const Vector3<U> &v) {
+        Point3<T> &operator+=(const Vector3<U> &v)
+        {
             DCHECK(!v.HasNaN());
             x += v.x;
             y += v.y;
@@ -597,13 +691,15 @@ namespace jadehare {
 
         template<typename U>
         auto operator-(const Vector3<U> &v) const
-        -> Point3<decltype(T{} - U{})> {
+        -> Point3<decltype(T{} - U{})>
+        {
             DCHECK(!v.HasNaN());
             return {x - v.x, y - v.y, z - v.z};
         }
 
         template<typename U>
-        Point3<T> &operator-=(const Vector3<U> &v) {
+        Point3<T> &operator-=(const Vector3<U> &v)
+        {
             DCHECK(!v.HasNaN());
             x -= v.x;
             y -= v.y;
@@ -616,7 +712,8 @@ namespace jadehare {
         // instead...
         template<typename U>
         auto operator-(const Point3<U> &p) const
-        -> Vector3<decltype(T{} - U{})> {
+        -> Vector3<decltype(T{} - U{})>
+        {
             DCHECK(!p.HasNaN());
             return {x - p.x, y - p.y, z - p.z};
         }
@@ -635,7 +732,8 @@ namespace jadehare {
 
     // Normal3 Definition
     template<typename T>
-    class Normal3 : public Tuple3<Normal3, T> {
+    class Normal3 : public Tuple3<Normal3, T>
+    {
     public:
         // Normal3 Public Methods
         using Tuple3<Normal3, T>::x;
@@ -649,15 +747,18 @@ namespace jadehare {
         Normal3() = default;
 
 
-        Normal3(T x, T y, T z) : Tuple3<Normal3, T>(x, y, z) {}
+        Normal3(T x, T y, T z) : Tuple3<Normal3, T>(x, y, z)
+        {}
 
         template<typename U>
-         explicit Normal3<T>(const Normal3<U> &v)
-                : Tuple3<Normal3, T>(T(v.x), T(v.y), T(v.z)) {}
+        explicit Normal3<T>(const Normal3<U> &v)
+                : Tuple3<Normal3, T>(T(v.x), T(v.y), T(v.z))
+        {}
 
         template<typename U>
-         explicit Normal3<T>(const Vector3<U> &v)
-                : Tuple3<Normal3, T>(T(v.x), T(v.y), T(v.z)) {}
+        explicit Normal3<T>(const Vector3<U> &v)
+                : Tuple3<Normal3, T>(T(v.x), T(v.y), T(v.z))
+        {}
     };
 
     using Normal3f = Normal3<float>;
@@ -666,36 +767,49 @@ namespace jadehare {
 #pragma region Quaternion
 
     // Quaternion Definition
-    class Quaternion : public glm::quat {
+    class Quaternion : public glm::quat
+    {
     public:
         // Quaternion Public Methods
         Quaternion() = default;
 
-        Quaternion(float w, float x, float y, float z) : glm::quat(w, x, y, z) {}
+        Quaternion(float w, float x, float y, float z) : glm::quat(w, x, y, z)
+        {}
 
         using glm::quat::operator+=;
         using glm::quat::operator-=;
+        using glm::quat::operator*=;
+        using glm::quat::operator/=;
 
-        Quaternion operator+(const Quaternion &q) const { return {w + q.w, x + q.x, y + q.y, z + q.z}; }
+        Quaternion operator+(const Quaternion &q) const
+        { return {w + q.w, x + q.x, y + q.y, z + q.z}; }
 
-//
 //        Quaternion &operator-=(const Quaternion &q) {
 //            v -= q.v;
 //            w -= q.w;
 //            return *this;
 //        }
 //
-//        Quaternion operator-() const { return {-v, -w}; }
+        Quaternion operator-() const
+        { return {-w, -x, -y, -z}; }
+
 //
-//        Quaternion operator-(const Quaternion &q) const { return {v - q.v, w - q.w}; }
+        Quaternion operator-(const Quaternion &q) const
+        { return {w - q.w, x - q.x, y - q.y, z - q.z}; }
+
 //
-//        Quaternion &operator*=(float f) {
-//            v *= f;
+//        Quaternion &operator*=(float f)
+//        {
+//            x *= f;
+//            y *= f;
+//            z *= f;
 //            w *= f;
 //            return *this;
 //        }
 //
-//        Quaternion operator*(float f) const { return {v * f, w * f}; }
+//
+//        Quaternion operator*(float f) const
+//        { return {w * f, x * f, y * f, z * f}; }
 //
 //        Quaternion &operator/=(float f) {
 //            DCHECK_NE(0, f);
@@ -720,7 +834,164 @@ namespace jadehare {
 
 #pragma endregion Quaternion
 
+#pragma region Vector2 Inline Functions
+// Vector2 Inline Functions
+
+    template<typename T>
+    inline auto Dot(const Vector2<T> &v1, const Vector2<T> &v2) -> float
+    {
+        DCHECK(!v1.HasNaN() && !v2.HasNaN());
+        return glm::dot(v1, v2);
+    }
+
+    template<typename T>
+    inline auto AbsDot(const Vector2<T> &v1, const Vector2<T> &v2) -> float
+    {
+        DCHECK(!v1.HasNaN() && !v2.HasNaN());
+        return glm::abs(Dot(v1, v2));
+    }
+
+    template<typename T>
+    inline auto LengthSquared(const Vector2<T> &v) -> float
+    {
+        return Dot(v, v);
+    }
+
+    template<typename T>
+    inline auto Length(const Vector2<T> &v) -> float
+    {
+        return glm::length2(v);
+    }
+
+    template<typename T>
+    inline auto Normalize(const Vector2<T> &v) -> Vector2<float>
+    {
+        return v / Length(v);
+    }
+
+    template<typename T>
+    inline auto Distance(const Point2<T> &p1, const Point2<T> &p2) -> float
+    {
+        return glm::distance(p1, p2);
+    }
+
+    template<typename T>
+    inline auto DistanceSquared(const Point2<T> &p1, const Point2<T> &p2) -> float
+    {
+        return glm::distance2(p1, p2);
+    }
+
+#pragma endregion Vector2 Inline Functions
+
+#pragma region Vector3 Inline Functions
+
+// Vector3 Inline Functions
+
+    template<typename T>
+    inline Vector3<T> Cross(const Vector3<T> &v1, const Normal3<T> &v2)
+    {
+        DCHECK(!v1.HasNaN() && !v2.HasNaN());
+        auto v3 = glm::cross(v1, v2);
+        return v3;
+    }
+
+    template<typename T>
+    inline Vector3<T> Cross(const Normal3<T> &v1, const Vector3<T> &v2)
+    {
+        DCHECK(!v1.HasNaN() && !v2.HasNaN());
+        return glm::cross(v1, v2);
+    }
+
+    template<typename T>
+    inline Vector3<T> Cross(const Vector3<T> &v, const Vector3<T> &w)
+    {
+        DCHECK(!v.HasNaN() && !w.HasNaN());
+        return glm::cross(v1, v2);
+    }
+
+    template<typename T>
+    inline T LengthSquared(const Vector3<T> &v)
+    {
+        return v.x * v.x + v.y * v.y + v.z * v.z;
+    }
+
+    template<typename T>
+    inline auto Length(const Vector3<T> &v) -> float
+    {
+        using std::sqrt;
+        return sqrt(LengthSquared(v));
+    }
+
+    template<typename T>
+    inline Vector3<T> Normalize(const Vector3<T> &v)
+    {
+        return v / Length(v);
+    }
+
+    template<typename T>
+    inline T Dot(const Vector3<T> &v, const Vector3<T> &w)
+    {
+        DCHECK(!v.HasNaN() && !w.HasNaN());
+        return v.x * w.x + v.y * w.y + v.z * w.z;
+    }
+
+// Equivalent to std::acos(Dot(a, b)), but more numerically stable.
+// via http://www.plunk.org/~hatch/rightway.php
+    template<typename T>
+    inline float AngleBetween(const Vector3<T> &v1, const Vector3<T> &v2)
+    {
+        if (Dot(v1, v2) < 0)
+            return Pi - 2 * glm::asin(Length(v1 + v2) / 2);
+        else
+            return 2 * glm::asin(Length(v2 - v1) / 2);
+    }
+
+    template<typename T>
+    inline T AbsDot(const Vector3<T> &v1, const Vector3<T> &v2)
+    {
+        DCHECK(!v1.HasNaN() && !v2.HasNaN());
+        return std::abs(Dot(v1, v2));
+    }
+
+    template<typename T>
+    inline float AngleBetween(const Normal3<T> &a, const Normal3<T> &b)
+    {
+        if (Dot(a, b) < 0)
+            return Pi - 2 * glm::asin(Length(a + b) / 2);
+        else
+            return 2 * glm::asin(Length(b - a) / 2);
+    }
+
+    template<typename T>
+    inline Vector3<T> GramSchmidt(const Vector3<T> &a, const Vector3<T> &b)
+    {
+        return a - Dot(a, b) * b;
+    }
+
+    template<typename T>
+    inline void CoordinateSystem(const Vector3<T> &v1, Vector3<T> *v2,
+                                 Vector3<T> *v3)
+    {
+        float sign = std::copysign(float(1), v1.z);
+        float a = -1 / (sign + v1.z);
+        float b = v1.x * v1.y * a;
+        *v2 = Vector3<T>(1 + sign * v1.x * v1.x * a, sign * b, -sign * v1.x);
+        *v3 = Vector3<T>(b, sign + v1.y * v1.y * a, -v1.y);
+    }
+
+    template<typename T>
+    inline void CoordinateSystem(const Normal3<T> &v1, Vector3<T> *v2,
+                                 Vector3<T> *v3)
+    {
+        float sign = std::copysign(float(1), v1.z);
+        float a = -1 / (sign + v1.z);
+        float b = v1.x * v1.y * a;
+        *v2 = Vector3<T>(1 + sign * v1.x * v1.x * a, sign * b, -sign * v1.x);
+        *v3 = Vector3<T>(b, sign + v1.y * v1.y * a, -v1.y);
+    }
+
+#pragma endregion Vector3 Inline Functions
 }
 
 
-#endif //JADEHARE_VECMATH_H
+#endif //JADEHARE_UTIL_VECMATH_H

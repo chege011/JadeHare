@@ -16,6 +16,7 @@
 
 #include <glm/glm.hpp>
 #include <glm/gtc/quaternion.hpp>
+#include <glm/gtx/norm.hpp>
 
 #if defined(PBRT_BUILD_GPU_RENDERER) && defined(__CUDACC__)
 #ifndef PBRT_NOINLINE
