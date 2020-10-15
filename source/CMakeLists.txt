@@ -11,6 +11,7 @@ set(JADEHARE_HEADER
         ${JADEHARE_INCLUDE_DIR}/jadehare.h
         ${JADEHARE_INCLUDE_DIR}/util/vecmath.h
         ${JADEHARE_INCLUDE_DIR}/util/check.h
+        ${JADEHARE_INCLUDE_DIR}/util/math.h
         )
 
 

@@ -2,12 +2,13 @@
 // Created by chege on 2020/10/5.
 //
 
-#ifndef JADEHARE_VECMATH_H
-#define JADEHARE_VECMATH_H
+#ifndef JADEHARE_UTIL_VECMATH_H
+#define JADEHARE_UTIL_VECMATH_H
 
 #include <jadehare.h>
 #include <util/check.h>
 #include <util/float.h>
+#include <util/math.h>
 
 namespace {
     inline float FMA(float a, float b, float c) {
@@ -465,6 +466,9 @@ namespace jadehare {
 
         Vector3(T x, T y, T z) : Tuple3<Vector3, T>(x, y, z) {}
 
+//        explicit Vector3(glm::vec<3, T, glm::defaultp> v) : Tuple3<Vector3, T>(v.x, v.y, v.z)
+//        {}
+
         template<typename U>
         explicit Vector3(const Vector3<U> &v) : Tuple3<Vector3, T>(T(v.x), T(v.y), T(v.z)) {}
 
@@ -685,7 +689,6 @@ namespace jadehare {
 
         Quaternion operator+(const Quaternion &q) const { return {w + q.w, x + q.x, y + q.y, z + q.z}; }
 
-//
 //        Quaternion &operator-=(const Quaternion &q) {
 //            v -= q.v;
 //            w -= q.w;
@@ -696,13 +699,18 @@ namespace jadehare {
 
         Quaternion operator-(const Quaternion &q) const { return {w - q.w, x - q.x, y - q.y, z - q.z}; }
 
-//        Quaternion &operator*=(float f) {
-//            v *= f;
+
+//        Quaternion &operator*=(float f)
+//        {
+//            x *= f;
+//            y *= f;
+//            z *= f;
 //            w *= f;
 //            return *this;
 //        }
 //
-        Quaternion operator*(float f) const { return {w * f, x * f, y * f, z * f} }
+//
+        Quaternion operator*(float f) const { return {w * f, x * f, y * f, z * f};}
 
 //        Quaternion &operator/=(float f) {
 //            DCHECK_NE(0, f);
@@ -727,7 +735,144 @@ namespace jadehare {
 
 #pragma endregion Quaternion
 
+#pragma region Vector2 Inline Functions
+// Vector2 Inline Functions
+
+    template<typename T>
+    inline auto Dot(const Vector2<T> &v1, const Vector2<T> &v2) -> float {
+        DCHECK(!v1.HasNaN() && !v2.HasNaN());
+        return glm::dot(v1, v2);
+    }
+
+    template<typename T>
+    inline auto AbsDot(const Vector2<T> &v1, const Vector2<T> &v2) -> float {
+        DCHECK(!v1.HasNaN() && !v2.HasNaN());
+        return glm::abs(Dot(v1, v2));
+    }
+
+    template<typename T>
+    inline auto LengthSquared(const Vector2<T> &v) -> float {
+        return Dot(v, v);
+    }
+
+    template<typename T>
+    inline auto Length(const Vector2<T> &v) -> float {
+        return glm::length2(v);
+    }
+
+    template<typename T>
+    inline auto Normalize(const Vector2<T> &v) -> Vector2<float> {
+        return v / Length(v);
+    }
+
+    template<typename T>
+    inline auto Distance(const Point2<T> &p1, const Point2<T> &p2) -> float {
+        return glm::distance(p1, p2);
+    }
+
+    template<typename T>
+    inline auto DistanceSquared(const Point2<T> &p1, const Point2<T> &p2) -> float {
+        return glm::distance2(p1, p2);
+    }
+
+#pragma endregion Vector2 Inline Functions
+
+#pragma region Vector3 Inline Functions
+
+// Vector3 Inline Functions
+
+    template<typename T>
+    inline Vector3<T> Cross(const Vector3<T> &v1, const Normal3<T> &v2) {
+        DCHECK(!v1.HasNaN() && !v2.HasNaN());
+        auto v3 = glm::cross(v1, v2);
+        return v3;
+    }
+
+    template<typename T>
+    inline Vector3<T> Cross(const Normal3<T> &v1, const Vector3<T> &v2) {
+        DCHECK(!v1.HasNaN() && !v2.HasNaN());
+        return glm::cross(v1, v2);
+    }
+
+    template<typename T>
+    inline Vector3<T> Cross(const Vector3<T> &v, const Vector3<T> &w) {
+        DCHECK(!v.HasNaN() && !w.HasNaN());
+        return glm::cross(v1, v2);
+    }
+
+    template<typename T>
+    inline T LengthSquared(const Vector3<T> &v) {
+        return v.x * v.x + v.y * v.y + v.z * v.z;
+    }
+
+    template<typename T>
+    inline auto Length(const Vector3<T> &v) -> float {
+        using std::sqrt;
+        return sqrt(LengthSquared(v));
+    }
+
+    template<typename T>
+    inline Vector3<T> Normalize(const Vector3<T> &v) {
+        return v / Length(v);
+    }
+
+    template<typename T>
+    inline T Dot(const Vector3<T> &v, const Vector3<T> &w) {
+        DCHECK(!v.HasNaN() && !w.HasNaN());
+        return v.x * w.x + v.y * w.y + v.z * w.z;
+    }
+
+// Equivalent to std::acos(Dot(a, b)), but more numerically stable.
+// via http://www.plunk.org/~hatch/rightway.php
+    template<typename T>
+    inline float AngleBetween(const Vector3<T> &v1, const Vector3<T> &v2) {
+        if (Dot(v1, v2) < 0)
+            return Pi - 2 * glm::asin(Length(v1 + v2) / 2);
+        else
+            return 2 * glm::asin(Length(v2 - v1) / 2);
+    }
+
+    template<typename T>
+    inline T AbsDot(const Vector3<T> &v1, const Vector3<T> &v2) {
+        DCHECK(!v1.HasNaN() && !v2.HasNaN());
+        return std::abs(Dot(v1, v2));
+    }
+
+    template<typename T>
+    inline float AngleBetween(const Normal3<T> &a, const Normal3<T> &b) {
+        if (Dot(a, b) < 0)
+            return Pi - 2 * glm::asin(Length(a + b) / 2);
+        else
+            return 2 * glm::asin(Length(b - a) / 2);
+    }
+
+    template<typename T>
+    inline Vector3<T> GramSchmidt(const Vector3<T> &a, const Vector3<T> &b) {
+        return a - Dot(a, b) * b;
+    }
+
+    template<typename T>
+    inline void CoordinateSystem(const Vector3<T> &v1, Vector3<T> *v2,
+                                 Vector3<T> *v3) {
+        float sign = std::copysign(float(1), v1.z);
+        float a = -1 / (sign + v1.z);
+        float b = v1.x * v1.y * a;
+        *v2 = Vector3<T>(1 + sign * v1.x * v1.x * a, sign * b, -sign * v1.x);
+        *v3 = Vector3<T>(b, sign + v1.y * v1.y * a, -v1.y);
+    }
+
+    template<typename T>
+    inline void CoordinateSystem(const Normal3<T> &v1, Vector3<T> *v2,
+                                 Vector3<T> *v3) {
+        float sign = std::copysign(float(1), v1.z);
+        float a = -1 / (sign + v1.z);
+        float b = v1.x * v1.y * a;
+        *v2 = Vector3<T>(1 + sign * v1.x * v1.x * a, sign * b, -sign * v1.x);
+        *v3 = Vector3<T>(b, sign + v1.y * v1.y * a, -v1.y);
+    }
+
+#pragma endregion Vector3 Inline Functions
 }
 
 
-#endif //JADEHARE_VECMATH_H
+#endif //JADEHARE_UTIL_VECMATH_H
