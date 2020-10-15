@@ -56,28 +56,31 @@ namespace jadehare {
             y = c.y;
             return static_cast<Child<T> &>(*this);
         }
+
 #endif  // !NDEBUG
 
-        template <typename U>
-         auto operator+(const Child<U> &c) const -> Child<decltype(T{} + U{})> {
+        template<typename U>
+        auto operator+(const Child<U> &c) const -> Child<decltype(T{} + U{})> {
             DCHECK(!c.HasNaN());
             return {x + c.x, y + c.y};
         }
-        template <typename U>
-         Child<T> &operator+=(const Child<U> &c) {
+
+        template<typename U>
+        Child<T> &operator+=(const Child<U> &c) {
             DCHECK(!c.HasNaN());
             x += c.x;
             y += c.y;
             return static_cast<Child<T> &>(*this);
         }
 
-        template <typename U>
-         auto operator-(const Child<U> &c) const -> Child<decltype(T{} - U{})> {
+        template<typename U>
+        auto operator-(const Child<U> &c) const -> Child<decltype(T{} - U{})> {
             DCHECK(!c.HasNaN());
             return {x - c.x, y - c.y};
         }
-        template <typename U>
-         Child<T> &operator-=(const Child<U> &c) {
+
+        template<typename U>
+        Child<T> &operator-=(const Child<U> &c) {
             DCHECK(!c.HasNaN());
             x -= c.x;
             y -= c.y;
@@ -89,8 +92,8 @@ namespace jadehare {
 
         bool operator!=(const Child<T> &c) const { return x != c.x || y != c.y; }
 
-        template <typename U>
-         auto operator*(U s) const -> Child<decltype(T{} * U{})> {
+        template<typename U>
+        auto operator*(U s) const -> Child<decltype(T{} * U{})> {
             return {s * x, s * y};
         }
 
@@ -102,8 +105,8 @@ namespace jadehare {
 //            return static_cast<Child<T> &>(*this);
 //        }
 
-        template <typename U>
-         auto operator/(U d) const -> Child<decltype(T{} / U{})> {
+        template<typename U>
+        auto operator/(U d) const -> Child<decltype(T{} / U{})> {
             DCHECK(d != 0 && !IsNaN(d));
             return {x / d, y / d};
         }
@@ -252,8 +255,8 @@ namespace jadehare {
 //            return z;
 //        }
 
-        template <typename U>
-         auto operator+(const Child<U> &c) const -> Child<decltype(T{} + U{})> {
+        template<typename U>
+        auto operator+(const Child<U> &c) const -> Child<decltype(T{} + U{})> {
             DCHECK(!c.HasNaN());
             return {x + c.x, y + c.y, z + c.z};
         }
@@ -277,10 +280,11 @@ namespace jadehare {
             z = c.z;
             return static_cast<Child<T> &>(*this);
         }
+
 #endif  // !NDEBUG
 
-        template <typename U>
-         Child<T> &operator+=(const Child<U> &c) {
+        template<typename U>
+        Child<T> &operator+=(const Child<U> &c) {
             DCHECK(!c.HasNaN());
             x += c.x;
             y += c.y;
@@ -288,13 +292,14 @@ namespace jadehare {
             return static_cast<Child<T> &>(*this);
         }
 
-        template <typename U>
-         auto operator-(const Child<U> &c) const -> Child<decltype(T{} - U{})> {
+        template<typename U>
+        auto operator-(const Child<U> &c) const -> Child<decltype(T{} - U{})> {
             DCHECK(!c.HasNaN());
             return {x - c.x, y - c.y, z - c.z};
         }
-        template <typename U>
-         Child<T> &operator-=(const Child<U> &c) {
+
+        template<typename U>
+        Child<T> &operator-=(const Child<U> &c) {
             DCHECK(!c.HasNaN());
             x -= c.x;
             y -= c.y;
@@ -307,8 +312,8 @@ namespace jadehare {
 
         bool operator!=(const Child<T> &c) const { return x != c.x || y != c.y || z != c.z; }
 
-        template <typename U>
-         auto operator*(U s) const -> Child<decltype(T{} * U{})> {
+        template<typename U>
+        auto operator*(U s) const -> Child<decltype(T{} * U{})> {
             return {s * x, s * y, s * z};
         }
 
@@ -321,8 +326,8 @@ namespace jadehare {
 //            return static_cast<Child<T> &>(*this);
 //        }
 
-        template <typename U>
-         auto operator/(U d) const -> Child<decltype(T{} / U{})> {
+        template<typename U>
+        auto operator/(U d) const -> Child<decltype(T{} / U{})> {
             DCHECK_NE(d, 0);
             return {x / d, y / d, z / d};
         }
@@ -443,7 +448,7 @@ namespace jadehare {
         template<typename U>
         explicit Vector2(const Point2<U> &p) : Tuple2<Vector2, T>(T(p.x), T(p.y)) {}
 
-        template <typename U>
+        template<typename U>
         explicit Vector2(const Vector2<U> &v) : Tuple2<Vector2, T>(T(v.x), T(v.y)) {}
     };
 
@@ -652,11 +657,11 @@ namespace jadehare {
         Normal3(T x, T y, T z) : Tuple3<Normal3, T>(x, y, z) {}
 
         template<typename U>
-         explicit Normal3<T>(const Normal3<U> &v)
+        explicit Normal3<T>(const Normal3<U> &v)
                 : Tuple3<Normal3, T>(T(v.x), T(v.y), T(v.z)) {}
 
         template<typename U>
-         explicit Normal3<T>(const Vector3<U> &v)
+        explicit Normal3<T>(const Vector3<U> &v)
                 : Tuple3<Normal3, T>(T(v.x), T(v.y), T(v.z)) {}
     };
 
@@ -675,6 +680,8 @@ namespace jadehare {
 
         using glm::quat::operator+=;
         using glm::quat::operator-=;
+        using glm::quat::operator*=;
+        using glm::quat::operator/=;
 
         Quaternion operator+(const Quaternion &q) const { return {w + q.w, x + q.x, y + q.y, z + q.z}; }
 
@@ -684,30 +691,30 @@ namespace jadehare {
 //            w -= q.w;
 //            return *this;
 //        }
-//
-//        Quaternion operator-() const { return {-v, -w}; }
-//
-//        Quaternion operator-(const Quaternion &q) const { return {v - q.v, w - q.w}; }
-//
+
+        Quaternion operator-() const { return {-w, -x, -y, -z}; }
+
+        Quaternion operator-(const Quaternion &q) const { return {w - q.w, x - q.x, y - q.y, z - q.z}; }
+
 //        Quaternion &operator*=(float f) {
 //            v *= f;
 //            w *= f;
 //            return *this;
 //        }
 //
-//        Quaternion operator*(float f) const { return {v * f, w * f}; }
-//
+        Quaternion operator*(float f) const { return {w * f, x * f, y * f, z * f} }
+
 //        Quaternion &operator/=(float f) {
 //            DCHECK_NE(0, f);
 //            v /= f;
 //            w /= f;
 //            return *this;
 //        }
-//
-//        Quaternion operator/(float f) const {
-//            DCHECK_NE(0, f);
-//            return {v / f, w / f};
-//        }
+
+        Quaternion operator/(float f) const {
+            DCHECK_NE(0, f);
+            return {w / f, x / f, y / f, z / f};
+        }
 
 //        std::string ToString() const;
 
