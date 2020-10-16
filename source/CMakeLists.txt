@@ -7,17 +7,9 @@ set(JADEHARE_INCLUDE_DIR
 
 message(STATUS "SOURCE PATH: ${jadehare_SOURCE_DIR}")
 
-set(JADEHARE_HEADER
-        ${JADEHARE_INCLUDE_DIR}/jadehare.h
-        ${JADEHARE_INCLUDE_DIR}/util/vecmath.h
-        ${JADEHARE_INCLUDE_DIR}/util/check.h
-        ${JADEHARE_INCLUDE_DIR}/util/math.h
-        )
-
 
 set(JADEHARE_CORE_SOURCE
-        util/vecmath.cpp
-        )
+        jadehare.cpp)
 
 add_library(jadehare STATIC
         ${JADEHARE_CORE_SOURCE}
@@ -40,7 +32,7 @@ target_link_libraries(jadehare
 
 add_executable(main
         main.cpp
-        )
+        jadehare.cpp)
 
 #target_include_directories(main PUBLIC
 #  $<BUILD_INTERFACE: ${CMAKE_CURRENT_SOURCE_DIR}/include>

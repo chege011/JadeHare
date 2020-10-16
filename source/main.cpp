@@ -2,7 +2,9 @@
 #include <cxxopts.hpp>
 #include <glm/glm.hpp>
 #include <entt/entt.hpp>
-#include "util/vecmath.h"
+#include "jadehare.h"
+#include "core/math/vector.h"
+#include "core/math/quaternion.h"
 
 int main(int argc, const char *argv[])
 {

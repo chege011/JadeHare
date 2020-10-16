@@ -61,6 +61,8 @@ namespace jadehare {
     using Vector2i = Vector2<int>;
     using Vector3f = Vector3<float>;
 
+    class Quaternion;
+
     template<typename T>
     class Bounds2;
 
