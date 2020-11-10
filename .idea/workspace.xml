@@ -5,87 +5,88 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="jadehare" targetName="odr" />
-      <config projectName="jadehare" targetName="ExperimentalConfigure" />
-      <config projectName="jadehare" targetName="meta_container" />
-      <config projectName="jadehare" targetName="meta_pointer" />
-      <config projectName="jadehare" targetName="NightlyMemCheck" />
-      <config projectName="jadehare" targetName="Continuous" />
-      <config projectName="jadehare" targetName="ContinuousSubmit" />
-      <config projectName="jadehare" targetName="entity" />
-      <config projectName="jadehare" targetName="delegate" />
-      <config projectName="jadehare" targetName="ExperimentalSubmit" />
-      <config projectName="jadehare" targetName="NightlyConfigure" />
-      <config projectName="jadehare" targetName="scheduler" />
-      <config projectName="jadehare" targetName="NightlySubmit" />
-      <config projectName="jadehare" targetName="ExperimentalStart" />
-      <config projectName="jadehare" targetName="ContinuousUpdate" />
-      <config projectName="jadehare" targetName="NightlyBuild" />
-      <config projectName="jadehare" targetName="handle" />
-      <config projectName="jadehare" targetName="storage" />
-      <config projectName="jadehare" targetName="emitter" />
-      <config projectName="jadehare" targetName="Experimental" />
-      <config projectName="jadehare" targetName="group" />
-      <config projectName="jadehare" targetName="Nightly" />
-      <config projectName="jadehare" targetName="resource" />
-      <config projectName="jadehare" targetName="type_traits" />
-      <config projectName="jadehare" targetName="NightlyMemoryCheck" />
-      <config projectName="jadehare" targetName="gtest" />
-      <config projectName="jadehare" targetName="ExperimentalMemCheck" />
-      <config projectName="jadehare" targetName="SDL2-static" />
-      <config projectName="jadehare" targetName="ContinuousStart" />
-      <config projectName="jadehare" targetName="locator" />
-      <config projectName="jadehare" targetName="snapshot" />
-      <config projectName="jadehare" targetName="jadehare" />
-      <config projectName="jadehare" targetName="spdlog" />
-      <config projectName="jadehare" targetName="ContinuousMemCheck" />
-      <config projectName="jadehare" targetName="gmock" />
-      <config projectName="jadehare" targetName="ExperimentalBuild" />
+      <config projectName="jadehare" targetName="utility" />
       <config projectName="jadehare" targetName="meta_ctor" />
-      <config projectName="jadehare" targetName="ident" />
-      <config projectName="jadehare" targetName="algorithm" />
-      <config projectName="jadehare" targetName="NightlyTest" />
-      <config projectName="jadehare" targetName="ContinuousCoverage" />
-      <config projectName="jadehare" targetName="sparse_set" />
-      <config projectName="jadehare" targetName="ExperimentalTest" />
-      <config projectName="jadehare" targetName="aob" />
-      <config projectName="jadehare" targetName="actor" />
-      <config projectName="jadehare" targetName="meta_type" />
-      <config projectName="jadehare" targetName="meta_any" />
-      <config projectName="jadehare" targetName="NightlyCoverage" />
-      <config projectName="jadehare" targetName="view" />
-      <config projectName="jadehare" targetName="meta_func" />
-      <config projectName="jadehare" targetName="hashed_string" />
-      <config projectName="jadehare" targetName="dispatcher" />
-      <config projectName="jadehare" targetName="gtest_main" />
-      <config projectName="jadehare" targetName="gmock_main" />
-      <config projectName="jadehare" targetName="meta_data" />
-      <config projectName="jadehare" targetName="ContinuousBuild" />
-      <config projectName="jadehare" targetName="monostate" />
-      <config projectName="jadehare" targetName="helper" />
-      <config projectName="jadehare" targetName="sigh" />
-      <config projectName="jadehare" targetName="meta_conv" />
-      <config projectName="jadehare" targetName="main" />
-      <config projectName="jadehare" targetName="meta_prop" />
-      <config projectName="jadehare" targetName="ExperimentalCoverage" />
-      <config projectName="jadehare" targetName="type_info" />
-      <config projectName="jadehare" targetName="SDL2main" />
-      <config projectName="jadehare" targetName="ContinuousTest" />
+      <config projectName="jadehare" targetName="meta_pointer" />
+      <config projectName="jadehare" targetName="meta_base" />
       <config projectName="jadehare" targetName="observer" />
+      <config projectName="jadehare" targetName="meta_prop" />
+      <config projectName="jadehare" targetName="docs" />
+      <config projectName="jadehare" targetName="emitter" />
+      <config projectName="jadehare" targetName="ContinuousCoverage" />
+      <config projectName="jadehare" targetName="gmock_main" />
+      <config projectName="jadehare" targetName="actor" />
+      <config projectName="jadehare" targetName="meta_func" />
+      <config projectName="jadehare" targetName="aob" />
+      <config projectName="jadehare" targetName="resource" />
+      <config projectName="jadehare" targetName="gtest_main" />
+      <config projectName="jadehare" targetName="Nightly" />
       <config projectName="jadehare" targetName="meta_range" />
       <config projectName="jadehare" targetName="registry" />
-      <config projectName="jadehare" targetName="SDL2" />
-      <config projectName="jadehare" targetName="process" />
-      <config projectName="jadehare" targetName="ContinuousConfigure" />
-      <config projectName="jadehare" targetName="uninstall" />
-      <config projectName="jadehare" targetName="runtime_view" />
-      <config projectName="jadehare" targetName="family" />
+      <config projectName="jadehare" targetName="view" />
+      <config projectName="jadehare" targetName="sigh" />
+      <config projectName="jadehare" targetName="algorithm" />
+      <config projectName="jadehare" targetName="ExperimentalStart" />
+      <config projectName="jadehare" targetName="group" />
+      <config projectName="jadehare" targetName="type_info" />
+      <config projectName="jadehare" targetName="SDL2-static" />
+      <config projectName="jadehare" targetName="ContinuousMemCheck" />
+      <config projectName="jadehare" targetName="snapshot" />
+      <config projectName="jadehare" targetName="meta_any" />
+      <config projectName="jadehare" targetName="SDL2main" />
       <config projectName="jadehare" targetName="NightlyStart" />
-      <config projectName="jadehare" targetName="meta_base" />
-      <config projectName="jadehare" targetName="utility" />
-      <config projectName="jadehare" targetName="NightlyUpdate" />
+      <config projectName="jadehare" targetName="hashed_string" />
+      <config projectName="jadehare" targetName="meta_type" />
       <config projectName="jadehare" targetName="ExperimentalUpdate" />
+      <config projectName="jadehare" targetName="meta_data" />
+      <config projectName="jadehare" targetName="ContinuousStart" />
+      <config projectName="jadehare" targetName="NightlyConfigure" />
+      <config projectName="jadehare" targetName="type_traits" />
+      <config projectName="jadehare" targetName="NightlyTest" />
+      <config projectName="jadehare" targetName="spdlog" />
+      <config projectName="jadehare" targetName="locator" />
+      <config projectName="jadehare" targetName="ContinuousSubmit" />
+      <config projectName="jadehare" targetName="scheduler" />
+      <config projectName="jadehare" targetName="odr" />
+      <config projectName="jadehare" targetName="NightlySubmit" />
+      <config projectName="jadehare" targetName="NightlyMemoryCheck" />
+      <config projectName="jadehare" targetName="main" />
+      <config projectName="jadehare" targetName="Experimental" />
+      <config projectName="jadehare" targetName="sparse_set" />
+      <config projectName="jadehare" targetName="dispatcher" />
+      <config projectName="jadehare" targetName="gmock" />
+      <config projectName="jadehare" targetName="SDL2" />
+      <config projectName="jadehare" targetName="meta_conv" />
+      <config projectName="jadehare" targetName="process" />
+      <config projectName="jadehare" targetName="NightlyUpdate" />
+      <config projectName="jadehare" targetName="ContinuousUpdate" />
       <config projectName="jadehare" targetName="registry_no_eto" />
+      <config projectName="jadehare" targetName="ExperimentalMemCheck" />
+      <config projectName="jadehare" targetName="ContinuousTest" />
+      <config projectName="jadehare" targetName="runtime_view" />
+      <config projectName="jadehare" targetName="helper" />
+      <config projectName="jadehare" targetName="monostate" />
+      <config projectName="jadehare" targetName="ExperimentalBuild" />
+      <config projectName="jadehare" targetName="ident" />
+      <config projectName="jadehare" targetName="handle" />
+      <config projectName="jadehare" targetName="NightlyCoverage" />
+      <config projectName="jadehare" targetName="ExperimentalCoverage" />
+      <config projectName="jadehare" targetName="ContinuousConfigure" />
+      <config projectName="jadehare" targetName="ExperimentalConfigure" />
+      <config projectName="jadehare" targetName="NightlyBuild" />
+      <config projectName="jadehare" targetName="gtest" />
+      <config projectName="jadehare" targetName="uninstall" />
+      <config projectName="jadehare" targetName="ExperimentalTest" />
+      <config projectName="jadehare" targetName="delegate" />
+      <config projectName="jadehare" targetName="jadehare" />
+      <config projectName="jadehare" targetName="entity" />
+      <config projectName="jadehare" targetName="Continuous" />
+      <config projectName="jadehare" targetName="ContinuousBuild" />
+      <config projectName="jadehare" targetName="NightlyMemCheck" />
+      <config projectName="jadehare" targetName="storage" />
+      <config projectName="jadehare" targetName="ExperimentalSubmit" />
+      <config projectName="jadehare" targetName="family" />
+      <config projectName="jadehare" targetName="meta_container" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -96,20 +97,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7314c840-4a02-410b-8bcc-e08a4aa33468" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/include/util/check.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/util/float.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/util/vecmath.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/util/vecmath.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/core/math/interval.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/core/math/ray.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/core/volumeScattering/medium.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/external/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/source/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/core/geometry.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/core/medium.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/include/core/geometry.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/include/core/medium.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/include/jadehare.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/jadehare.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/samples/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/core/math/bounds.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/core/math/bounds.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/core/math/mathematics.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/core/math/mathematics.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/core/math/point.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/core/math/point.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/core/math/vector.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/core/math/vector.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/jadehare.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/jadehare.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +126,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="OCResolveContextSettings">
+    <option name="configuration" value="0-Debug-main" />
+  </component>
   <component name="ProjectId" id="1gilcY1DPKiMDPX8lJh3WPcg5NA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -141,30 +141,25 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/build/cmake-build-debug/_deps/googletest-build/Makefile&#10;D:/G/WorkSpace/JadeHare/external/glm/glm/detail/type_vec3.inl&#10;D:/G/WorkSpace/JadeHare/external/glm/glm/detail/type_vec2.hpp" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/CMakeLists.txt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Utopia" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C/C++" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\G\WorkSpace\Git\OfflineWork\JadeHare\include\core\math" />
       <recent name="D:\G\WorkSpace\JadeHare\include\util" />
       <recent name="D:\G\WorkSpace\JadeHare" />
       <recent name="D:\G\WorkSpace\Git\OfflineWork\JadeHare\external" />
       <recent name="D:\G\WorkSpace\Git\OfflineWork\JadeHare\external\cmake" />
-      <recent name="D:\G\WorkSpace\Git\OfflineWork\VulkanPBR\source\include" />
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.main">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Continuous" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="Continuous" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -320,6 +315,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="actor" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="actor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="actor">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -341,6 +341,11 @@
       </method>
     </configuration>
     <configuration name="dispatcher" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="dispatcher" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="dispatcher">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="docs" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="docs" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -609,6 +614,7 @@
       <item itemvalue="CMake Application.NightlySubmit" />
       <item itemvalue="CMake Application.NightlyTest" />
       <item itemvalue="CMake Application.NightlyUpdate" />
+      <item itemvalue="CMake Application.docs" />
       <item itemvalue="CMake Application.actor" />
       <item itemvalue="CMake Application.algorithm" />
       <item itemvalue="CMake Application.delegate" />
@@ -685,6 +691,10 @@
       <workItem from="1601344556340" duration="32305000" />
       <workItem from="1601879462057" duration="10768000" />
       <workItem from="1601966820745" duration="8195000" />
+      <workItem from="1602508293534" duration="6929000" />
+      <workItem from="1602836717099" duration="6673000" />
+      <workItem from="1603795729097" duration="3409000" />
+      <workItem from="1605000394560" duration="1909000" />
     </task>
     <servers />
   </component>
@@ -708,15 +718,15 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1053" y="416" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/-1440.-310.1440.2520@0.0.2560.1400" timestamp="1600943310399" />
-    <state x="1478" y="596" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601880330669">
+    <state x="1478" y="596" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602844478944">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1478" y="596" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/-1440.-310.1440.2520@0.0.2560.1400" timestamp="1601371092705" />
+    <state x="1478" y="596" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/-1440.-310.1440.2520@0.0.2560.1400" timestamp="1602844478944" />
     <state x="1478" y="596" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/-1920.0.1280.680@0.0.2560.1400" timestamp="1601880330669" />
-    <state x="640" y="553" key="FileChooserDialogImpl" timestamp="1601879590935">
+    <state x="640" y="553" key="FileChooserDialogImpl" timestamp="1605004799741">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="640" y="553" key="FileChooserDialogImpl/0.0.2560.1400/-1440.-310.1440.2520@0.0.2560.1400" timestamp="1601284632978" />
+    <state x="640" y="553" key="FileChooserDialogImpl/0.0.2560.1400/-1440.-310.1440.2520@0.0.2560.1400" timestamp="1605004799741" />
     <state x="640" y="553" key="FileChooserDialogImpl/0.0.2560.1400/-1920.0.1280.680@0.0.2560.1400" timestamp="1601879590935" />
     <state width="1234" height="491" key="GridCell.Tab.0.bottom" timestamp="1601978300930">
       <screen x="0" y="0" width="2560" height="1400" />
@@ -754,10 +764,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1234" height="491" key="GridCell.Tab.1.right/0.0.2560.1400/-1920.0.1280.680@0.0.2560.1400" timestamp="1601978300930" />
-    <state x="409" y="345" width="1566" height="711" key="SettingsEditor" timestamp="1601973498117">
+    <state x="818" y="338" width="1566" height="711" key="SettingsEditor" timestamp="1603796612612">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="818" y="338" width="1566" height="711" key="SettingsEditor/0.0.2560.1400/-1440.-310.1440.2520@0.0.2560.1400" timestamp="1601024941824" />
+    <state x="818" y="338" width="1566" height="711" key="SettingsEditor/0.0.2560.1400/-1440.-310.1440.2520@0.0.2560.1400" timestamp="1603796612612" />
     <state x="409" y="345" key="SettingsEditor/0.0.2560.1400/-1920.0.1280.680@0.0.2560.1400" timestamp="1601973498117" />
     <state x="921" y="402" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600935374663">
       <screen x="0" y="0" width="2560" height="1400" />
@@ -767,11 +777,16 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1709" y="621" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400/-1920.0.1280.680@0.0.2560.1400" timestamp="1601973661900" />
-    <state x="557" y="687" width="786" height="600" key="find.popup" timestamp="1601885227265">
+    <state x="557" y="687" width="773" height="594" key="find.popup" timestamp="1603797754296">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="557" y="687" width="773" height="536" key="find.popup/0.0.2560.1400/-1440.-310.1440.2520@0.0.2560.1400" timestamp="1601432713317" />
+    <state x="557" y="687" width="773" height="594" key="find.popup/0.0.2560.1400/-1440.-310.1440.2520@0.0.2560.1400" timestamp="1603797754296" />
     <state x="557" y="687" width="786" height="600" key="find.popup/0.0.2560.1400/-1920.0.1280.680@0.0.2560.1400" timestamp="1601885227265" />
+    <state x="557" y="687" width="786" height="600" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1602510840984" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1602836935448">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="600" height="428" key="javadoc.popup/0.0.2560.1400/-1440.-310.1440.2520@0.0.2560.1400" timestamp="1602836935448" />
     <state x="1046" y="425" width="672" height="678" key="search.everywhere.popup" timestamp="1600768568268">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -787,8 +802,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/source/main.cpp</url>
-          <line>63</line>
+          <line>65</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/include/core/math/vecmath.h</url>
+          <line>787</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/include/core/math/tuple.h</url>
+          <line>117</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -36,7 +36,7 @@
 #endif
 
 namespace jadehare {
-
+#pragma region Math
     using FloatBits = uint32_t;
 
     template<typename T>
@@ -60,6 +60,7 @@ namespace jadehare {
     using Vector2f = Vector2<float>;
     using Vector2i = Vector2<int>;
     using Vector3f = Vector3<float>;
+    using Normal3f = Normal3<float>;
 
     class Quaternion;
 
@@ -74,6 +75,20 @@ namespace jadehare {
 
     using Bounds3f = Bounds3<float>;
     using Bounds3i = Bounds3<int>;
+
+    template<typename Float>
+    class Interval;
+
+    template <typename T>
+    class SOA;
+
+#pragma endregion Math
+
+#pragma region Volume Scattering
+
+    class Medium;
+
+#pragma endregion Volume Scattering
 }
 
 #endif //JADEHARE_H

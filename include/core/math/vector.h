@@ -6,6 +6,7 @@
 #define JADEHARE_CORE_MATH_VECTOR_H
 
 #include "tuple.h"
+#include "interval.h"
 
 namespace jadehare {
 
@@ -61,6 +62,48 @@ namespace jadehare {
 // Vector3* definitions
     using Vector3f = Vector3<float>;
     using Vector3i = Vector3<int>;
+
+    // Vector3fi Definition
+    class Vector3fi : public Vector3<FloatInterval> {
+    public:
+        // Vector3fi Public Methods
+        using Vector3<FloatInterval>::x;
+        using Vector3<FloatInterval>::y;
+        using Vector3<FloatInterval>::z;
+        using Vector3<FloatInterval>::HasNaN;
+        using Vector3<FloatInterval>::operator+;
+        using Vector3<FloatInterval>::operator+=;
+        using Vector3<FloatInterval>::operator*;
+        using Vector3<FloatInterval>::operator*=;
+
+        Vector3fi() = default;
+        PBRT_CPU_GPU
+        Vector3fi(float x, float y, float z)
+                : Vector3<FloatInterval>(FloatInterval(x), FloatInterval(y),
+                                           FloatInterval(z)) {}
+        PBRT_CPU_GPU
+        Vector3fi(FloatInterval x, FloatInterval y, FloatInterval z)
+                : Vector3<FloatInterval>(x, y, z) {}
+        PBRT_CPU_GPU
+        Vector3fi(const Vector3f &p)
+                : Vector3<FloatInterval>(FloatInterval(p.x), FloatInterval(p.y),
+                                           FloatInterval(p.z)) {}
+
+        template <typename F>
+        PBRT_CPU_GPU Vector3fi(const Vector3<Interval<F>> &pfi)
+                : Vector3<FloatInterval>(pfi) {}
+
+        PBRT_CPU_GPU
+        Vector3fi(const Vector3f &p, const Vector3f &e)
+                : Vector3<FloatInterval>(FloatInterval::FromValueAndError(p.x, e.x),
+                                           FloatInterval::FromValueAndError(p.y, e.y),
+                                           FloatInterval::FromValueAndError(p.z, e.z)) {}
+
+        PBRT_CPU_GPU
+        Vector3f Error() const { return {x.Width() / 2, y.Width() / 2, z.Width() / 2}; }
+        PBRT_CPU_GPU
+        bool IsExact() const { return x.Width() == 0 && y.Width() == 0 && z.Width() == 0; }
+    };
 
 #pragma region Vector2 Inline Functions
 // Vector2 Inline Functions

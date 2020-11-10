@@ -10,11 +10,12 @@
 #include "vector.h"
 #include "point.h"
 
-namespace jadehare{
+namespace jadehare {
 
 #pragma region Bounds
+
 // Bounds2 Definition
-    template <typename T>
+    template<typename T>
     class Bounds2 {
     public:
         // Bounds2 Public Methods
@@ -30,7 +31,8 @@ namespace jadehare{
 
         Bounds2(const Point2<T> &p1, const Point2<T> &p2)
                 : pMin(Min(p1, p2)), pMax(Max(p1, p2)) {}
-        template <typename U>
+
+        template<typename U>
         explicit Bounds2(const Bounds2<U> &b) {
             if (b.IsEmpty())
                 // Be careful about overflowing float->int conversions and the
@@ -115,7 +117,7 @@ namespace jadehare{
     };
 
     // Bounds3 Definition
-    template <typename T>
+    template<typename T>
     class Bounds3 {
     public:
         // Bounds3 Public Methods
@@ -211,7 +213,7 @@ namespace jadehare{
             return pMin.x > pMax.x || pMin.y > pMax.y || pMin.z > pMax.z;
         }
 
-        template <typename U>
+        template<typename U>
         explicit Bounds3(const Bounds3<U> &b) {
             if (b.IsEmpty())
                 // Be careful about overflowing float->int conversions and the
@@ -251,8 +253,9 @@ namespace jadehare{
 #pragma endregion Bounds
 
 #pragma region Bounds2 Inline Functions
+
     // Bounds2 Inline Functions
-    template <typename T>
+    template<typename T>
     inline Bounds2<T> Union(const Bounds2<T> &b, const Point2<T> &p) {
         // Be careful to not run the two-point Bounds constructor.
         Bounds2<T> ret;
@@ -261,7 +264,7 @@ namespace jadehare{
         return ret;
     }
 
-    template <typename T>
+    template<typename T>
     inline Bounds2<T> Union(const Bounds2<T> &b1, const Bounds2<T> &b2) {
         // Be careful to not run the two-point Bounds constructor.
         Bounds2<T> ret;
@@ -270,7 +273,7 @@ namespace jadehare{
         return ret;
     }
 
-    template <typename T>
+    template<typename T>
     inline Bounds2<T> Intersect(const Bounds2<T> &b1, const Bounds2<T> &b2) {
         // Be careful to not run the two-point Bounds constructor.
         Bounds2<T> b;
@@ -279,41 +282,43 @@ namespace jadehare{
         return b;
     }
 
-    template <typename T>
+    template<typename T>
     inline bool Overlaps(const Bounds2<T> &ba, const Bounds2<T> &bb) {
         bool x = (ba.pMax.x >= bb.pMin.x) && (ba.pMin.x <= bb.pMax.x);
         bool y = (ba.pMax.y >= bb.pMin.y) && (ba.pMin.y <= bb.pMax.y);
         return (x && y);
     }
 
-    template <typename T>
+    template<typename T>
     inline bool Inside(const Point2<T> &pt, const Bounds2<T> &b) {
         return (pt.x >= b.pMin.x && pt.x <= b.pMax.x && pt.y >= b.pMin.y && pt.y <= b.pMax.y);
     }
 
-    template <typename T>
+    template<typename T>
     inline bool Inside(const Bounds2<T> &ba, const Bounds2<T> &bb) {
         return (ba.pMin.x >= bb.pMin.x && ba.pMax.x <= bb.pMax.x && ba.pMin.y >= bb.pMin.y &&
                 ba.pMax.y <= bb.pMax.y);
     }
 
-    template <typename T>
+    template<typename T>
     inline bool InsideExclusive(const Point2<T> &pt, const Bounds2<T> &b) {
         return (pt.x >= b.pMin.x && pt.x < b.pMax.x && pt.y >= b.pMin.y && pt.y < b.pMax.y);
     }
 
-    template <typename T, typename U>
+    template<typename T, typename U>
     inline Bounds2<T> Expand(const Bounds2<T> &b, U delta) {
         Bounds2<T> ret;
         ret.pMin = b.pMin - Vector2<T>(delta, delta);
         ret.pMax = b.pMax + Vector2<T>(delta, delta);
         return ret;
     }
+
 #pragma endregion Bounds2 Inline Functions
 
 #pragma region Bounds3 Inline Functions
+
 // Bounds3 Inline Functions
-    template <typename T>
+    template<typename T>
     inline Bounds3<T> Union(const Bounds3<T> &b, const Point3<T> &p) {
         Bounds3<T> ret;
         ret.pMin = Min(b.pMin, p);
@@ -321,7 +326,7 @@ namespace jadehare{
         return ret;
     }
 
-    template <typename T>
+    template<typename T>
     inline Bounds3<T> Union(const Bounds3<T> &b1, const Bounds3<T> &b2) {
         Bounds3<T> ret;
         ret.pMin = Min(b1.pMin, b2.pMin);
@@ -329,7 +334,7 @@ namespace jadehare{
         return ret;
     }
 
-    template <typename T>
+    template<typename T>
     inline Bounds3<T> Intersect(const Bounds3<T> &b1, const Bounds3<T> &b2) {
         Bounds3<T> b;
         b.pMin = Max(b1.pMin, b2.pMin);
@@ -337,7 +342,7 @@ namespace jadehare{
         return b;
     }
 
-    template <typename T>
+    template<typename T>
     inline bool Overlaps(const Bounds3<T> &b1, const Bounds3<T> &b2) {
         bool x = (b1.pMax.x >= b2.pMin.x) && (b1.pMin.x <= b2.pMax.x);
         bool y = (b1.pMax.y >= b2.pMin.y) && (b1.pMin.y <= b2.pMax.y);
@@ -345,19 +350,19 @@ namespace jadehare{
         return (x && y && z);
     }
 
-    template <typename T>
+    template<typename T>
     inline bool Inside(const Point3<T> &p, const Bounds3<T> &b) {
         return (p.x >= b.pMin.x && p.x <= b.pMax.x && p.y >= b.pMin.y && p.y <= b.pMax.y &&
                 p.z >= b.pMin.z && p.z <= b.pMax.z);
     }
 
-    template <typename T>
+    template<typename T>
     inline bool InsideExclusive(const Point3<T> &p, const Bounds3<T> &b) {
         return (p.x >= b.pMin.x && p.x < b.pMax.x && p.y >= b.pMin.y && p.y < b.pMax.y &&
                 p.z >= b.pMin.z && p.z < b.pMax.z);
     }
 
-    template <typename T, typename U>
+    template<typename T, typename U>
     inline auto DistanceSquared(const Point3<T> &p, const Bounds3<U> &b) {
         using TDist = decltype(T{} - U{});
         TDist dx = std::max<TDist>({0, b.pMin.x - p.x, p.x - b.pMax.x});
@@ -366,13 +371,13 @@ namespace jadehare{
         return dx * dx + dy * dy + dz * dz;
     }
 
-    template <typename T, typename U>
+    template<typename T, typename U>
     inline auto Distance(const Point3<T> &p, const Bounds3<U> &b) {
         auto dist2 = DistanceSquared(p, b);
         return std::sqrt(float(dist2));
     }
 
-    template <typename T, typename U>
+    template<typename T, typename U>
     inline Bounds3<T> Expand(const Bounds3<T> &b, U delta) {
         Bounds3<T> ret;
         ret.pMin = b.pMin - Vector3<T>(delta, delta, delta);
@@ -380,7 +385,7 @@ namespace jadehare{
         return ret;
     }
 
-    template <typename T>
+    template<typename T>
     inline bool Bounds3<T>::IntersectP(const Point3f &o, const Vector3f &d,
                                        float tMax, float *hitt0,
                                        float *hitt1) const {
@@ -409,7 +414,7 @@ namespace jadehare{
         return true;
     }
 
-    template <typename T>
+    template<typename T>
     inline bool Bounds3<T>::IntersectP(const Point3f &o, const Vector3f &d,
                                        float raytMax, const Vector3f &invDir,
                                        const int dirIsNeg[3]) const {
@@ -445,6 +450,7 @@ namespace jadehare{
 
         return (tMin < raytMax) && (tMax > 0);
     }
+
 #pragma endregion Bounds3 Inline Functions
 }
 
