@@ -66,41 +66,41 @@ namespace jadehare {
 #ifdef PBRT_IS_GPU_CODE
         return __float_as_uint(f);
 #else
-        return pstd::bit_cast<uint32_t>(f);
+        return bit_cast<uint32_t>(f);
 #endif
     }
 
-    PBRT_CPU_GPU
-    inline float NextFloatUp(float v) {
-        // Handle infinity and negative zero for _NextFloatUp()_
-        if (IsInf(v) && v > 0.)
-            return v;
-        if (v == -0.f)
-            v = 0.f;
-
-        // Advance _v_ to next higher float
-        uint32_t ui = FloatToBits(v);
-        if (v >= 0)
-            ++ui;
-        else
-            --ui;
-        return BitsToFloat(ui);
-    }
-
-    PBRT_CPU_GPU
-    inline float NextFloatDown(float v) {
-        // Handle infinity and positive zero for _NextFloatDown()_
-        if (IsInf(v) && v < 0.)
-            return v;
-        if (v == 0.f)
-            v = -0.f;
-        uint32_t ui = FloatToBits(v);
-        if (v > 0)
-            --ui;
-        else
-            ++ui;
-        return BitsToFloat(ui);
-    }
+//    PBRT_CPU_GPU
+//    inline float NextFloatUp(float v) {
+//        // Handle infinity and negative zero for _NextFloatUp()_
+//        if (IsInf(v) && v > 0.)
+//            return v;
+//        if (v == -0.f)
+//            v = 0.f;
+//
+//        // Advance _v_ to next higher float
+//        uint32_t ui = FloatToBits(v);
+//        if (v >= 0)
+//            ++ui;
+//        else
+//            --ui;
+//        return BitsToFloat(ui);
+//    }
+//
+//    PBRT_CPU_GPU
+//    inline float NextFloatDown(float v) {
+//        // Handle infinity and positive zero for _NextFloatDown()_
+//        if (IsInf(v) && v < 0.)
+//            return v;
+//        if (v == 0.f)
+//            v = -0.f;
+//        uint32_t ui = FloatToBits(v);
+//        if (v > 0)
+//            --ui;
+//        else
+//            ++ui;
+//        return BitsToFloat(ui);
+//    }
 }
 
 #endif //JADEHARE_UTIL_MATH_H

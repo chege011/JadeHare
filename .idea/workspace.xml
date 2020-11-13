@@ -5,88 +5,92 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="jadehare" targetName="utility" />
-      <config projectName="jadehare" targetName="meta_ctor" />
-      <config projectName="jadehare" targetName="meta_pointer" />
-      <config projectName="jadehare" targetName="meta_base" />
-      <config projectName="jadehare" targetName="observer" />
-      <config projectName="jadehare" targetName="meta_prop" />
-      <config projectName="jadehare" targetName="docs" />
-      <config projectName="jadehare" targetName="emitter" />
-      <config projectName="jadehare" targetName="ContinuousCoverage" />
-      <config projectName="jadehare" targetName="gmock_main" />
-      <config projectName="jadehare" targetName="actor" />
-      <config projectName="jadehare" targetName="meta_func" />
-      <config projectName="jadehare" targetName="aob" />
-      <config projectName="jadehare" targetName="resource" />
-      <config projectName="jadehare" targetName="gtest_main" />
-      <config projectName="jadehare" targetName="Nightly" />
-      <config projectName="jadehare" targetName="meta_range" />
-      <config projectName="jadehare" targetName="registry" />
-      <config projectName="jadehare" targetName="view" />
-      <config projectName="jadehare" targetName="sigh" />
-      <config projectName="jadehare" targetName="algorithm" />
-      <config projectName="jadehare" targetName="ExperimentalStart" />
-      <config projectName="jadehare" targetName="group" />
-      <config projectName="jadehare" targetName="type_info" />
-      <config projectName="jadehare" targetName="SDL2-static" />
-      <config projectName="jadehare" targetName="ContinuousMemCheck" />
-      <config projectName="jadehare" targetName="snapshot" />
-      <config projectName="jadehare" targetName="meta_any" />
-      <config projectName="jadehare" targetName="SDL2main" />
-      <config projectName="jadehare" targetName="NightlyStart" />
-      <config projectName="jadehare" targetName="hashed_string" />
-      <config projectName="jadehare" targetName="meta_type" />
-      <config projectName="jadehare" targetName="ExperimentalUpdate" />
-      <config projectName="jadehare" targetName="meta_data" />
-      <config projectName="jadehare" targetName="ContinuousStart" />
-      <config projectName="jadehare" targetName="NightlyConfigure" />
-      <config projectName="jadehare" targetName="type_traits" />
-      <config projectName="jadehare" targetName="NightlyTest" />
-      <config projectName="jadehare" targetName="spdlog" />
-      <config projectName="jadehare" targetName="locator" />
-      <config projectName="jadehare" targetName="ContinuousSubmit" />
-      <config projectName="jadehare" targetName="scheduler" />
-      <config projectName="jadehare" targetName="odr" />
-      <config projectName="jadehare" targetName="NightlySubmit" />
-      <config projectName="jadehare" targetName="NightlyMemoryCheck" />
-      <config projectName="jadehare" targetName="main" />
-      <config projectName="jadehare" targetName="Experimental" />
-      <config projectName="jadehare" targetName="sparse_set" />
-      <config projectName="jadehare" targetName="dispatcher" />
-      <config projectName="jadehare" targetName="gmock" />
-      <config projectName="jadehare" targetName="SDL2" />
-      <config projectName="jadehare" targetName="meta_conv" />
-      <config projectName="jadehare" targetName="process" />
-      <config projectName="jadehare" targetName="NightlyUpdate" />
-      <config projectName="jadehare" targetName="ContinuousUpdate" />
-      <config projectName="jadehare" targetName="registry_no_eto" />
-      <config projectName="jadehare" targetName="ExperimentalMemCheck" />
-      <config projectName="jadehare" targetName="ContinuousTest" />
-      <config projectName="jadehare" targetName="runtime_view" />
-      <config projectName="jadehare" targetName="helper" />
-      <config projectName="jadehare" targetName="monostate" />
-      <config projectName="jadehare" targetName="ExperimentalBuild" />
-      <config projectName="jadehare" targetName="ident" />
-      <config projectName="jadehare" targetName="handle" />
-      <config projectName="jadehare" targetName="NightlyCoverage" />
-      <config projectName="jadehare" targetName="ExperimentalCoverage" />
-      <config projectName="jadehare" targetName="ContinuousConfigure" />
       <config projectName="jadehare" targetName="ExperimentalConfigure" />
-      <config projectName="jadehare" targetName="NightlyBuild" />
-      <config projectName="jadehare" targetName="gtest" />
-      <config projectName="jadehare" targetName="uninstall" />
-      <config projectName="jadehare" targetName="ExperimentalTest" />
-      <config projectName="jadehare" targetName="delegate" />
-      <config projectName="jadehare" targetName="jadehare" />
-      <config projectName="jadehare" targetName="entity" />
-      <config projectName="jadehare" targetName="Continuous" />
-      <config projectName="jadehare" targetName="ContinuousBuild" />
+      <config projectName="jadehare" targetName="SPIRV-Tools-static" />
+      <config projectName="jadehare" targetName="spirv-tools-pkg-config" />
+      <config projectName="jadehare" targetName="SPIRV-Tools-reduce" />
       <config projectName="jadehare" targetName="NightlyMemCheck" />
-      <config projectName="jadehare" targetName="storage" />
+      <config projectName="jadehare" targetName="spirv-cfg" />
+      <config projectName="jadehare" targetName="Continuous" />
+      <config projectName="jadehare" targetName="ContinuousSubmit" />
       <config projectName="jadehare" targetName="ExperimentalSubmit" />
-      <config projectName="jadehare" targetName="family" />
-      <config projectName="jadehare" targetName="meta_container" />
+      <config projectName="jadehare" targetName="install-headers" />
+      <config projectName="jadehare" targetName="SPIRV-Headers-example" />
+      <config projectName="jadehare" targetName="render" />
+      <config projectName="jadehare" targetName="spirv-tools-cpp-example" />
+      <config projectName="jadehare" targetName="NightlyConfigure" />
+      <config projectName="jadehare" targetName="extinst_tables" />
+      <config projectName="jadehare" targetName="glslang-default-resource-limits" />
+      <config projectName="jadehare" targetName="NightlySubmit" />
+      <config projectName="jadehare" targetName="ExperimentalStart" />
+      <config projectName="jadehare" targetName="OSDependent" />
+      <config projectName="jadehare" targetName="ContinuousUpdate" />
+      <config projectName="jadehare" targetName="spv-tools-clspvreflection" />
+      <config projectName="jadehare" targetName="shaderc_combined-pkg-config" />
+      <config projectName="jadehare" targetName="NightlyBuild" />
+      <config projectName="jadehare" targetName="Experimental" />
+      <config projectName="jadehare" targetName="SPIRV-Tools-shared" />
+      <config projectName="jadehare" targetName="glslc_exe" />
+      <config projectName="jadehare" targetName="shaderc_combined_genfile" />
+      <config projectName="jadehare" targetName="spirv-remap" />
+      <config projectName="jadehare" targetName="Nightly" />
+      <config projectName="jadehare" targetName="shaderc-pkg-config" />
+      <config projectName="jadehare" targetName="spirv-tools-header-DebugInfo" />
+      <config projectName="jadehare" targetName="spirv-as" />
+      <config projectName="jadehare" targetName="spirv-reduce" />
+      <config projectName="jadehare" targetName="build-version" />
+      <config projectName="jadehare" targetName="check-copyright" />
+      <config projectName="jadehare" targetName="NightlyMemoryCheck" />
+      <config projectName="jadehare" targetName="ExperimentalMemCheck" />
+      <config projectName="jadehare" targetName="SDL2-static" />
+      <config projectName="jadehare" targetName="ContinuousStart" />
+      <config projectName="jadehare" targetName="shaderc_shared" />
+      <config projectName="jadehare" targetName="spv-tools-spv-amd-sb" />
+      <config projectName="jadehare" targetName="ContinuousMemCheck" />
+      <config projectName="jadehare" targetName="SPIRV-Tools-link" />
+      <config projectName="jadehare" targetName="ExperimentalBuild" />
+      <config projectName="jadehare" targetName="shaderc_static-pkg-config" />
+      <config projectName="jadehare" targetName="NightlyTest" />
+      <config projectName="jadehare" targetName="shaderc_util" />
+      <config projectName="jadehare" targetName="spv-tools-spv-amd-stm" />
+      <config projectName="jadehare" targetName="ContinuousCoverage" />
+      <config projectName="jadehare" targetName="spirv-val" />
+      <config projectName="jadehare" targetName="ExperimentalTest" />
+      <config projectName="jadehare" targetName="spirv-tools-header-OpenCLDebugInfo100" />
+      <config projectName="jadehare" targetName="spv-tools-debuginfo" />
+      <config projectName="jadehare" targetName="NightlyCoverage" />
+      <config projectName="jadehare" targetName="add-copyright" />
+      <config projectName="jadehare" targetName="spirv-tools-shared-pkg-config" />
+      <config projectName="jadehare" targetName="ContinuousBuild" />
+      <config projectName="jadehare" targetName="spv-tools-spv-amd-gs" />
+      <config projectName="jadehare" targetName="spirv-opt" />
+      <config projectName="jadehare" targetName="glslangValidator" />
+      <config projectName="jadehare" targetName="testdata" />
+      <config projectName="jadehare" targetName="enum_string_mapping" />
+      <config projectName="jadehare" targetName="spirv-tools-vimsyntax" />
+      <config projectName="jadehare" targetName="SPIRV" />
+      <config projectName="jadehare" targetName="spv-tools-cldi100" />
+      <config projectName="jadehare" targetName="spirv-link" />
+      <config projectName="jadehare" targetName="ExperimentalCoverage" />
+      <config projectName="jadehare" targetName="spirv-dis" />
+      <config projectName="jadehare" targetName="SDL2main" />
+      <config projectName="jadehare" targetName="spirv-tools-build-version" />
+      <config projectName="jadehare" targetName="SPIRV-Tools-opt" />
+      <config projectName="jadehare" targetName="ContinuousTest" />
+      <config projectName="jadehare" targetName="SDL2" />
+      <config projectName="jadehare" targetName="ContinuousConfigure" />
+      <config projectName="jadehare" targetName="uninstall" />
+      <config projectName="jadehare" targetName="NightlyStart" />
+      <config projectName="jadehare" targetName="glslang" />
+      <config projectName="jadehare" targetName="OGLCompiler" />
+      <config projectName="jadehare" targetName="glslc" />
+      <config projectName="jadehare" targetName="shaderc" />
+      <config projectName="jadehare" targetName="ExperimentalUpdate" />
+      <config projectName="jadehare" targetName="NightlyUpdate" />
+      <config projectName="jadehare" targetName="SPVRemapper" />
+      <config projectName="jadehare" targetName="shaderc-online-compile" />
+      <config projectName="jadehare" targetName="core_tables" />
+      <config projectName="jadehare" targetName="spv-tools-spv-amd-sevp" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -97,15 +101,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7314c840-4a02-410b-8bcc-e08a4aa33468" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/include/core/math/interval.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/core/math/ray.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/core/volumeScattering/medium.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glslang.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/shaderc.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/spirv-headers.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/spirv-tools.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/core/renderBackend/HelloTriangleApplication.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/core/math/bounds.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/core/math/bounds.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/external/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/external/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/core/math/interval.h" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/include/core/math/mathematics.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/core/math/mathematics.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/core/math/point.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/core/math/point.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/core/math/vector.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/core/math/vector.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/jadehare.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/jadehare.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/source/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,9 +133,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="OCResolveContextSettings">
-    <option name="configuration" value="0-Debug-main" />
-  </component>
   <component name="ProjectId" id="1gilcY1DPKiMDPX8lJh3WPcg5NA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -141,7 +145,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/build/cmake-build-debug/_deps/googletest-build/Makefile&#10;D:/G/WorkSpace/JadeHare/external/glm/glm/detail/type_vec3.inl&#10;D:/G/WorkSpace/JadeHare/external/glm/glm/detail/type_vec2.hpp" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Utopia" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/external" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -152,14 +156,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\G\WorkSpace\Git\OfflineWork\JadeHare\external" />
+      <recent name="D:\G\WorkSpace\Git\OfflineWork\JadeHare\include\core" />
+      <recent name="D:\G\WorkSpace\Git\OfflineWork\JadeHare\include\core\renderer" />
       <recent name="D:\G\WorkSpace\Git\OfflineWork\JadeHare\include\core\math" />
       <recent name="D:\G\WorkSpace\JadeHare\include\util" />
-      <recent name="D:\G\WorkSpace\JadeHare" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\G\WorkSpace\Git\OfflineWork\JadeHare\external" />
-      <recent name="D:\G\WorkSpace\Git\OfflineWork\JadeHare\external\cmake" />
+      <recent name="D:\G\WorkSpace\Git\OfflineWork\JadeHare\include\core\renderer" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.main">
+  <component name="RunManager" selected="CMake Application.render">
     <configuration name="Continuous" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="Continuous" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -300,6 +308,16 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OGLCompiler" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="OGLCompiler" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OSDependent" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="OSDependent" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SDL2-static" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="SDL2-static" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -315,262 +333,272 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SPIRV-Headers-example" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="SPIRV-Headers-example" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SPIRV-Tools-link" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="SPIRV-Tools-link" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SPIRV-Tools-opt" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="SPIRV-Tools-opt" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SPIRV-Tools-reduce" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="SPIRV-Tools-reduce" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SPIRV-Tools-shared" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="SPIRV-Tools-shared" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SPIRV-Tools-static" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="SPIRV-Tools-static" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SPIRV" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="SPIRV" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SPVRemapper" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="SPVRemapper" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="actor" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="actor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="actor">
+    <configuration name="add-copyright" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="add-copyright" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="algorithm" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="algorithm" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="algorithm">
+    <configuration name="build-version" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="build-version" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="aob" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="aob" CONFIG_NAME="Debug">
+    <configuration name="check-copyright" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="check-copyright" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="delegate" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="delegate" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="delegate">
+    <configuration name="core_tables" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="core_tables" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dispatcher" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="dispatcher" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="dispatcher">
+    <configuration name="enum_string_mapping" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="enum_string_mapping" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="docs" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="docs" CONFIG_NAME="Debug">
+    <configuration name="extinst_tables" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="extinst_tables" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="emitter" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="emitter" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="emitter">
+    <configuration name="glslang-default-resource-limits" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="glslang-default-resource-limits" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="entity" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="entity" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="entity">
+    <configuration name="glslang" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="glslang" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="family" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="family" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="family">
+    <configuration name="glslangValidator" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="glslangValidator" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="glslangValidator">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="gmock" CONFIG_NAME="Debug">
+    <configuration name="glslc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="glslc" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gmock_main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="gmock_main" CONFIG_NAME="Debug">
+    <configuration name="glslc_exe" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="glslc_exe" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="glslc_exe">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="group" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="group" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="group">
+    <configuration name="install-headers" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="install-headers" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="gtest" CONFIG_NAME="Debug">
+    <configuration name="render" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="render" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="render">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="gtest_main" CONFIG_NAME="Debug">
+    <configuration name="shaderc-online-compile" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="shaderc-online-compile" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="shaderc-online-compile">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="handle" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="handle" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="handle">
+    <configuration name="shaderc-pkg-config" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="shaderc-pkg-config" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hashed_string" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="hashed_string" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="hashed_string">
+    <configuration name="shaderc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="shaderc" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="helper" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="helper" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="helper">
+    <configuration name="shaderc_combined-pkg-config" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="shaderc_combined-pkg-config" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ident" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="ident" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="ident">
+    <configuration name="shaderc_combined_genfile" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="shaderc_combined_genfile" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="jadehare" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="jadehare" CONFIG_NAME="Debug">
+    <configuration name="shaderc_shared" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="shaderc_shared" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="locator" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="locator" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="locator">
+    <configuration name="shaderc_static-pkg-config" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="shaderc_static-pkg-config" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="main">
+    <configuration name="shaderc_util" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="shaderc_util" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="meta_any" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="meta_any" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="meta_any">
+    <configuration name="spirv-as" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="spirv-as" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="spirv-as">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="meta_base" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="meta_base" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="meta_base">
+    <configuration name="spirv-cfg" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="spirv-cfg" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="spirv-cfg">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="meta_container" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="meta_container" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="meta_container">
+    <configuration name="spirv-dis" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="spirv-dis" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="spirv-dis">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="meta_conv" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="meta_conv" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="meta_conv">
+    <configuration name="spirv-link" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="spirv-link" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="spirv-link">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="meta_ctor" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="meta_ctor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="meta_ctor">
+    <configuration name="spirv-opt" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="spirv-opt" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="spirv-opt">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="meta_data" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="meta_data" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="meta_data">
+    <configuration name="spirv-reduce" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="spirv-reduce" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="spirv-reduce">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="meta_func" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="meta_func" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="meta_func">
+    <configuration name="spirv-remap" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="spirv-remap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="spirv-remap">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="meta_pointer" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="meta_pointer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="meta_pointer">
+    <configuration name="spirv-tools-build-version" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="spirv-tools-build-version" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="meta_prop" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="meta_prop" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="meta_prop">
+    <configuration name="spirv-tools-cpp-example" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="spirv-tools-cpp-example" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="spirv-tools-cpp-example">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="meta_range" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="meta_range" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="meta_range">
+    <configuration name="spirv-tools-header-DebugInfo" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="spirv-tools-header-DebugInfo" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="meta_type" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="meta_type" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="meta_type">
+    <configuration name="spirv-tools-header-OpenCLDebugInfo100" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="spirv-tools-header-OpenCLDebugInfo100" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="monostate" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="monostate" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="monostate">
+    <configuration name="spirv-tools-pkg-config" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="spirv-tools-pkg-config" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="observer" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="observer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="observer">
+    <configuration name="spirv-tools-shared-pkg-config" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="spirv-tools-shared-pkg-config" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="odr" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="odr" CONFIG_NAME="Debug">
+    <configuration name="spirv-tools-vimsyntax" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="spirv-tools-vimsyntax" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="process" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="process" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="process">
+    <configuration name="spirv-val" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="spirv-val" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="spirv-val">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="registry" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="registry" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="registry">
+    <configuration name="spv-tools-cldi100" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="spv-tools-cldi100" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="registry_no_eto" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="registry_no_eto" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="registry_no_eto">
+    <configuration name="spv-tools-clspvreflection" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="spv-tools-clspvreflection" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="resource" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="resource" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="resource">
+    <configuration name="spv-tools-debuginfo" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="spv-tools-debuginfo" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="runtime_view" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="runtime_view" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="runtime_view">
+    <configuration name="spv-tools-spv-amd-gs" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="spv-tools-spv-amd-gs" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="scheduler" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="scheduler" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="scheduler">
+    <configuration name="spv-tools-spv-amd-sb" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="spv-tools-spv-amd-sb" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sigh" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="sigh" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="sigh">
+    <configuration name="spv-tools-spv-amd-sevp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="spv-tools-spv-amd-sevp" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="snapshot" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="snapshot" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="snapshot">
+    <configuration name="spv-tools-spv-amd-stm" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="spv-tools-spv-amd-stm" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sparse_set" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="sparse_set" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="sparse_set">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="spdlog" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="spdlog" CONFIG_NAME="Debug">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="storage" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="storage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="storage">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="type_info" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="type_info" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="type_info">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="type_traits" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="type_traits" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="type_traits">
+    <configuration name="testdata" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="testdata" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="uninstall" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="uninstall" CONFIG_NAME="Debug">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="utility" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="utility" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="utility">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="view" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jadehare" TARGET_NAME="view" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jadehare" RUN_TARGET_NAME="view">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -581,11 +609,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake Application.gmock" />
-      <item itemvalue="CMake Application.gmock_main" />
-      <item itemvalue="CMake Application.gtest" />
-      <item itemvalue="CMake Application.gtest_main" />
-      <item itemvalue="CMake Application.aob" />
       <item itemvalue="CMake Application.Continuous" />
       <item itemvalue="CMake Application.ContinuousBuild" />
       <item itemvalue="CMake Application.ContinuousConfigure" />
@@ -614,55 +637,64 @@
       <item itemvalue="CMake Application.NightlySubmit" />
       <item itemvalue="CMake Application.NightlyTest" />
       <item itemvalue="CMake Application.NightlyUpdate" />
-      <item itemvalue="CMake Application.docs" />
-      <item itemvalue="CMake Application.actor" />
-      <item itemvalue="CMake Application.algorithm" />
-      <item itemvalue="CMake Application.delegate" />
-      <item itemvalue="CMake Application.dispatcher" />
-      <item itemvalue="CMake Application.emitter" />
-      <item itemvalue="CMake Application.entity" />
-      <item itemvalue="CMake Application.family" />
-      <item itemvalue="CMake Application.group" />
-      <item itemvalue="CMake Application.handle" />
-      <item itemvalue="CMake Application.hashed_string" />
-      <item itemvalue="CMake Application.helper" />
-      <item itemvalue="CMake Application.ident" />
-      <item itemvalue="CMake Application.locator" />
-      <item itemvalue="CMake Application.meta_any" />
-      <item itemvalue="CMake Application.meta_base" />
-      <item itemvalue="CMake Application.meta_container" />
-      <item itemvalue="CMake Application.meta_conv" />
-      <item itemvalue="CMake Application.meta_ctor" />
-      <item itemvalue="CMake Application.meta_data" />
-      <item itemvalue="CMake Application.meta_func" />
-      <item itemvalue="CMake Application.meta_pointer" />
-      <item itemvalue="CMake Application.meta_prop" />
-      <item itemvalue="CMake Application.meta_range" />
-      <item itemvalue="CMake Application.meta_type" />
-      <item itemvalue="CMake Application.monostate" />
-      <item itemvalue="CMake Application.observer" />
-      <item itemvalue="CMake Application.odr" />
-      <item itemvalue="CMake Application.process" />
-      <item itemvalue="CMake Application.registry" />
-      <item itemvalue="CMake Application.registry_no_eto" />
-      <item itemvalue="CMake Application.resource" />
-      <item itemvalue="CMake Application.runtime_view" />
-      <item itemvalue="CMake Application.scheduler" />
-      <item itemvalue="CMake Application.sigh" />
-      <item itemvalue="CMake Application.snapshot" />
-      <item itemvalue="CMake Application.sparse_set" />
-      <item itemvalue="CMake Application.storage" />
-      <item itemvalue="CMake Application.type_info" />
-      <item itemvalue="CMake Application.type_traits" />
-      <item itemvalue="CMake Application.utility" />
-      <item itemvalue="CMake Application.view" />
+      <item itemvalue="CMake Application.glslang" />
+      <item itemvalue="CMake Application.OSDependent" />
+      <item itemvalue="CMake Application.OGLCompiler" />
+      <item itemvalue="CMake Application.SPIRV" />
+      <item itemvalue="CMake Application.SPVRemapper" />
+      <item itemvalue="CMake Application.glslang-default-resource-limits" />
+      <item itemvalue="CMake Application.glslangValidator" />
+      <item itemvalue="CMake Application.spirv-remap" />
       <item itemvalue="CMake Application.SDL2" />
       <item itemvalue="CMake Application.SDL2-static" />
       <item itemvalue="CMake Application.SDL2main" />
       <item itemvalue="CMake Application.uninstall" />
-      <item itemvalue="CMake Application.spdlog" />
-      <item itemvalue="CMake Application.jadehare" />
-      <item itemvalue="CMake Application.main" />
+      <item itemvalue="CMake Application.add-copyright" />
+      <item itemvalue="CMake Application.build-version" />
+      <item itemvalue="CMake Application.check-copyright" />
+      <item itemvalue="CMake Application.shaderc-pkg-config" />
+      <item itemvalue="CMake Application.shaderc_combined-pkg-config" />
+      <item itemvalue="CMake Application.shaderc_static-pkg-config" />
+      <item itemvalue="CMake Application.shaderc-online-compile" />
+      <item itemvalue="CMake Application.glslc" />
+      <item itemvalue="CMake Application.glslc_exe" />
+      <item itemvalue="CMake Application.shaderc" />
+      <item itemvalue="CMake Application.shaderc_combined_genfile" />
+      <item itemvalue="CMake Application.shaderc_shared" />
+      <item itemvalue="CMake Application.shaderc_util" />
+      <item itemvalue="CMake Application.testdata" />
+      <item itemvalue="CMake Application.install-headers" />
+      <item itemvalue="CMake Application.SPIRV-Headers-example" />
+      <item itemvalue="CMake Application.spirv-tools-pkg-config" />
+      <item itemvalue="CMake Application.spirv-tools-shared-pkg-config" />
+      <item itemvalue="CMake Application.spirv-tools-cpp-example" />
+      <item itemvalue="CMake Application.core_tables" />
+      <item itemvalue="CMake Application.enum_string_mapping" />
+      <item itemvalue="CMake Application.extinst_tables" />
+      <item itemvalue="CMake Application.spirv-tools-build-version" />
+      <item itemvalue="CMake Application.spirv-tools-header-DebugInfo" />
+      <item itemvalue="CMake Application.spirv-tools-header-OpenCLDebugInfo100" />
+      <item itemvalue="CMake Application.SPIRV-Tools-shared" />
+      <item itemvalue="CMake Application.SPIRV-Tools-static" />
+      <item itemvalue="CMake Application.spirv-tools-vimsyntax" />
+      <item itemvalue="CMake Application.spv-tools-cldi100" />
+      <item itemvalue="CMake Application.spv-tools-clspvreflection" />
+      <item itemvalue="CMake Application.spv-tools-debuginfo" />
+      <item itemvalue="CMake Application.spv-tools-spv-amd-gs" />
+      <item itemvalue="CMake Application.spv-tools-spv-amd-sb" />
+      <item itemvalue="CMake Application.spv-tools-spv-amd-sevp" />
+      <item itemvalue="CMake Application.spv-tools-spv-amd-stm" />
+      <item itemvalue="CMake Application.SPIRV-Tools-link" />
+      <item itemvalue="CMake Application.SPIRV-Tools-opt" />
+      <item itemvalue="CMake Application.SPIRV-Tools-reduce" />
+      <item itemvalue="CMake Application.spirv-as" />
+      <item itemvalue="CMake Application.spirv-cfg" />
+      <item itemvalue="CMake Application.spirv-dis" />
+      <item itemvalue="CMake Application.spirv-link" />
+      <item itemvalue="CMake Application.spirv-opt" />
+      <item itemvalue="CMake Application.spirv-reduce" />
+      <item itemvalue="CMake Application.spirv-val" />
+      <item itemvalue="CMake Application.render" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -694,7 +726,10 @@
       <workItem from="1602508293534" duration="6929000" />
       <workItem from="1602836717099" duration="6673000" />
       <workItem from="1603795729097" duration="3409000" />
-      <workItem from="1605000394560" duration="1909000" />
+      <workItem from="1605000394560" duration="3403000" />
+      <workItem from="1605091340420" duration="379000" />
+      <workItem from="1605236428147" duration="6496000" />
+      <workItem from="1605249612916" duration="13140000" />
     </task>
     <servers />
   </component>
@@ -710,64 +745,84 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="560" y="395" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/-1440.-310.1440.2520@0.0.2560.1400" timestamp="1600918771818" />
-    <state x="1024" y="500" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601352625650">
+    <state x="1024" y="500" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605262265637">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1024" y="500" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/-1440.-310.1440.2520@0.0.2560.1400" timestamp="1601352625650" />
+    <state x="1024" y="500" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/-1440.-310.1440.2520@0.0.2560.1400" timestamp="1605262265637" />
+    <state x="1024" y="500" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/-1440.-310.1440.2560@0.0.2560.1400" timestamp="1605249662918" />
     <state x="1053" y="416" key="#com.intellij.ide.util.MemberChooser" timestamp="1600943310399">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1053" y="416" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/-1440.-310.1440.2520@0.0.2560.1400" timestamp="1600943310399" />
-    <state x="1478" y="596" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602844478944">
+    <state x="1478" y="596" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605249907930">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1478" y="596" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/-1440.-310.1440.2520@0.0.2560.1400" timestamp="1602844478944" />
+    <state x="1478" y="596" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/-1440.-310.1440.2520@0.0.2560.1400" timestamp="1605239073474" />
+    <state x="1478" y="596" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/-1440.-310.1440.2560@0.0.2560.1400" timestamp="1605249907930" />
     <state x="1478" y="596" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/-1920.0.1280.680@0.0.2560.1400" timestamp="1601880330669" />
-    <state x="640" y="553" key="FileChooserDialogImpl" timestamp="1605004799741">
+    <state x="1224" y="689" key="FileChooserDialogImpl" timestamp="1605248931404">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="640" y="553" key="FileChooserDialogImpl/0.0.2560.1400/-1440.-310.1440.2520@0.0.2560.1400" timestamp="1605004799741" />
+    <state x="1224" y="689" key="FileChooserDialogImpl/0.0.2560.1400/-1440.-310.1440.2520@0.0.2560.1400" timestamp="1605091365838" />
+    <state x="1224" y="689" key="FileChooserDialogImpl/0.0.2560.1400/-1440.-310.1440.2560@0.0.2560.1400" timestamp="1605248931404" />
     <state x="640" y="553" key="FileChooserDialogImpl/0.0.2560.1400/-1920.0.1280.680@0.0.2560.1400" timestamp="1601879590935" />
-    <state width="1234" height="491" key="GridCell.Tab.0.bottom" timestamp="1601978300930">
+    <state width="2517" height="258" key="GridCell.Tab.0.bottom" timestamp="1605259931703">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state width="2517" height="258" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1440.-310.1440.2520@0.0.2560.1400" timestamp="1605259931703" />
+    <state width="1512" height="212" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1440.-310.1440.2560@0.0.2560.1400" timestamp="1605255966968" />
     <state width="1234" height="491" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.0.1280.680@0.0.2560.1400" timestamp="1601978300930" />
     <state width="1240" height="400" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1601897908828" />
-    <state width="1234" height="491" key="GridCell.Tab.0.center" timestamp="1601978300930">
+    <state width="2517" height="258" key="GridCell.Tab.0.center" timestamp="1605259931703">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state width="2517" height="258" key="GridCell.Tab.0.center/0.0.2560.1400/-1440.-310.1440.2520@0.0.2560.1400" timestamp="1605259931703" />
+    <state width="1512" height="212" key="GridCell.Tab.0.center/0.0.2560.1400/-1440.-310.1440.2560@0.0.2560.1400" timestamp="1605255966968" />
     <state width="1234" height="491" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.0.1280.680@0.0.2560.1400" timestamp="1601978300930" />
     <state width="1240" height="400" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1601897908828" />
-    <state width="1234" height="491" key="GridCell.Tab.0.left" timestamp="1601978300930">
+    <state width="2517" height="258" key="GridCell.Tab.0.left" timestamp="1605259931703">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state width="2517" height="258" key="GridCell.Tab.0.left/0.0.2560.1400/-1440.-310.1440.2520@0.0.2560.1400" timestamp="1605259931703" />
+    <state width="1512" height="212" key="GridCell.Tab.0.left/0.0.2560.1400/-1440.-310.1440.2560@0.0.2560.1400" timestamp="1605255966967" />
     <state width="1234" height="491" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.0.1280.680@0.0.2560.1400" timestamp="1601978300930" />
     <state width="1240" height="400" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1601897908828" />
-    <state width="1234" height="491" key="GridCell.Tab.0.right" timestamp="1601978300930">
+    <state width="2517" height="258" key="GridCell.Tab.0.right" timestamp="1605259931703">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state width="2517" height="258" key="GridCell.Tab.0.right/0.0.2560.1400/-1440.-310.1440.2520@0.0.2560.1400" timestamp="1605259931703" />
+    <state width="1512" height="212" key="GridCell.Tab.0.right/0.0.2560.1400/-1440.-310.1440.2560@0.0.2560.1400" timestamp="1605255966968" />
     <state width="1234" height="491" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.0.1280.680@0.0.2560.1400" timestamp="1601978300930" />
     <state width="1240" height="400" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1601897908828" />
-    <state width="1234" height="491" key="GridCell.Tab.1.bottom" timestamp="1601978300930">
+    <state width="2517" height="258" key="GridCell.Tab.1.bottom" timestamp="1605259931703">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state width="2517" height="258" key="GridCell.Tab.1.bottom/0.0.2560.1400/-1440.-310.1440.2520@0.0.2560.1400" timestamp="1605259931703" />
+    <state width="1512" height="212" key="GridCell.Tab.1.bottom/0.0.2560.1400/-1440.-310.1440.2560@0.0.2560.1400" timestamp="1605255985498" />
     <state width="1234" height="491" key="GridCell.Tab.1.bottom/0.0.2560.1400/-1920.0.1280.680@0.0.2560.1400" timestamp="1601978300930" />
-    <state width="1234" height="491" key="GridCell.Tab.1.center" timestamp="1601978300930">
+    <state width="2517" height="258" key="GridCell.Tab.1.center" timestamp="1605259931703">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state width="2517" height="258" key="GridCell.Tab.1.center/0.0.2560.1400/-1440.-310.1440.2520@0.0.2560.1400" timestamp="1605259931703" />
+    <state width="1512" height="212" key="GridCell.Tab.1.center/0.0.2560.1400/-1440.-310.1440.2560@0.0.2560.1400" timestamp="1605255985498" />
     <state width="1234" height="491" key="GridCell.Tab.1.center/0.0.2560.1400/-1920.0.1280.680@0.0.2560.1400" timestamp="1601978300930" />
-    <state width="1234" height="491" key="GridCell.Tab.1.left" timestamp="1601978300930">
+    <state width="2517" height="258" key="GridCell.Tab.1.left" timestamp="1605259931703">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state width="2517" height="258" key="GridCell.Tab.1.left/0.0.2560.1400/-1440.-310.1440.2520@0.0.2560.1400" timestamp="1605259931703" />
+    <state width="1512" height="212" key="GridCell.Tab.1.left/0.0.2560.1400/-1440.-310.1440.2560@0.0.2560.1400" timestamp="1605255985498" />
     <state width="1234" height="491" key="GridCell.Tab.1.left/0.0.2560.1400/-1920.0.1280.680@0.0.2560.1400" timestamp="1601978300930" />
-    <state width="1234" height="491" key="GridCell.Tab.1.right" timestamp="1601978300930">
+    <state width="2517" height="258" key="GridCell.Tab.1.right" timestamp="1605259931703">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state width="2517" height="258" key="GridCell.Tab.1.right/0.0.2560.1400/-1440.-310.1440.2520@0.0.2560.1400" timestamp="1605259931703" />
+    <state width="1512" height="212" key="GridCell.Tab.1.right/0.0.2560.1400/-1440.-310.1440.2560@0.0.2560.1400" timestamp="1605255985498" />
     <state width="1234" height="491" key="GridCell.Tab.1.right/0.0.2560.1400/-1920.0.1280.680@0.0.2560.1400" timestamp="1601978300930" />
-    <state x="818" y="338" width="1566" height="711" key="SettingsEditor" timestamp="1603796612612">
+    <state x="818" y="338" width="1566" height="711" key="SettingsEditor" timestamp="1605251545895">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="818" y="338" width="1566" height="711" key="SettingsEditor/0.0.2560.1400/-1440.-310.1440.2520@0.0.2560.1400" timestamp="1603796612612" />
+    <state x="818" y="338" key="SettingsEditor/0.0.2560.1400/-1440.-310.1440.2560@0.0.2560.1400" timestamp="1605251545895" />
     <state x="409" y="345" key="SettingsEditor/0.0.2560.1400/-1920.0.1280.680@0.0.2560.1400" timestamp="1601973498117" />
     <state x="921" y="402" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600935374663">
       <screen x="0" y="0" width="2560" height="1400" />
@@ -777,20 +832,20 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1709" y="621" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400/-1920.0.1280.680@0.0.2560.1400" timestamp="1601973661900" />
-    <state x="557" y="687" width="773" height="594" key="find.popup" timestamp="1603797754296">
+    <state x="460" y="679" width="773" height="594" key="find.popup" timestamp="1605261035180">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="557" y="687" width="773" height="594" key="find.popup/0.0.2560.1400/-1440.-310.1440.2520@0.0.2560.1400" timestamp="1603797754296" />
+    <state x="460" y="679" width="773" height="594" key="find.popup/0.0.2560.1400/-1440.-310.1440.2520@0.0.2560.1400" timestamp="1605261035180" />
     <state x="557" y="687" width="786" height="600" key="find.popup/0.0.2560.1400/-1920.0.1280.680@0.0.2560.1400" timestamp="1601885227265" />
     <state x="557" y="687" width="786" height="600" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1602510840984" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1602836935448">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="600" height="428" key="javadoc.popup/0.0.2560.1400/-1440.-310.1440.2520@0.0.2560.1400" timestamp="1602836935448" />
-    <state x="1046" y="425" width="672" height="678" key="search.everywhere.popup" timestamp="1600768568268">
+    <state x="1046" y="425" width="672" height="678" key="search.everywhere.popup" timestamp="1605260974375">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1046" y="425" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/-1440.-310.1440.2520@0.0.2560.1400" timestamp="1600768568268" />
+    <state x="1046" y="425" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/-1440.-310.1440.2520@0.0.2560.1400" timestamp="1605260974375" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -815,7 +870,17 @@
           <line>117</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/source/core/renderBackend/HelloTriangleApplication.cpp</url>
+          <line>581</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="file.is_open()" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
