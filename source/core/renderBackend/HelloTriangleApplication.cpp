@@ -1,5 +1,4 @@
 #include <vulkan/vulkan.h>
-#include <shaderc/shaderc.hpp>
 #include <iostream>
 #include <fstream>
 #include <stdexcept>
@@ -11,6 +10,8 @@
 #include <optional>
 #include <set>
 
+#define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING
+//#include <ShaderConductor/ShaderConductor.hpp>
 #define SDL_MAIN_HANDLED
 
 #include <SDL.h>
@@ -538,53 +539,54 @@ private:
 
 	void createGraphicsPipeline()
 	{
-		shaderc::Compiler compiler;
-		std::string vert = "#version 450\n"
-							 "#extension GL_ARB_separate_shader_objects : enable\n"
-							 "\n"
-							 "layout(location = 0) out vec3 fragColor;\n"
-							 "\n"
-							 "vec2 positions[3] = vec2[](\n"
-							 "    vec2(0.0, -0.5),\n"
-							 "    vec2(0.5, 0.5),\n"
-							 "    vec2(-0.5, 0.5)\n"
-							 ");\n"
-							 "\n"
-							 "vec3 colors[3] = vec3[](\n"
-							 "    vec3(1.0, 0.0, 0.0),\n"
-							 "    vec3(0.0, 1.0, 0.0),\n"
-							 "    vec3(0.0, 0.0, 1.0)\n"
-							 ");\n"
-							 "\n"
-							 "void main() {\n"
-							 "    gl_Position = vec4(positions[gl_VertexIndex], 0.0, 1.0);\n"
-							 "    fragColor = colors[gl_VertexIndex];\n"
-							 "}";
-		std::string frag = "#version 450\n"
-						   "#extension GL_ARB_separate_shader_objects : enable\n"
-						   "\n"
-						   "layout(location = 0) in vec3 fragColor;\n"
-						   "\n"
-						   "layout(location = 0) out vec4 outColor;\n"
-						   "\n"
-						   "void main() {\n"
-						   "    outColor = vec4(fragColor, 1.0);\n"
-						   "}";
+//		shaderc::Compiler compiler;
+//		std::string vert = "#version 450\n"
+//							 "#extension GL_ARB_separate_shader_objects : enable\n"
+//							 "\n"
+//							 "layout(location = 0) out vec3 fragColor;\n"
+//							 "\n"
+//							 "vec2 positions[3] = vec2[](\n"
+//							 "    vec2(0.0, -0.5),\n"
+//							 "    vec2(0.5, 0.5),\n"
+//							 "    vec2(-0.5, 0.5)\n"
+//							 ");\n"
+//							 "\n"
+//							 "vec3 colors[3] = vec3[](\n"
+//							 "    vec3(1.0, 0.0, 0.0),\n"
+//							 "    vec3(0.0, 1.0, 0.0),\n"
+//							 "    vec3(0.0, 0.0, 1.0)\n"
+//							 ");\n"
+//							 "\n"
+//							 "void main() {\n"
+//							 "    gl_Position = vec4(positions[gl_VertexIndex], 0.0, 1.0);\n"
+//							 "    fragColor = colors[gl_VertexIndex];\n"
+//							 "}";
+//
+//		std::string frag = "#version 450\n"
+//						   "#extension GL_ARB_separate_shader_objects : enable\n"
+//						   "\n"
+//						   "layout(location = 0) in vec3 fragColor;\n"
+//						   "\n"
+//						   "layout(location = 0) out vec4 outColor;\n"
+//						   "\n"
+//						   "void main() {\n"
+//						   "    outColor = vec4(fragColor, 1.0);\n"
+//						   "}";
+//
+//		auto vResult = compiler.CompileGlslToSpv(vert, shaderc_shader_kind::shaderc_vertex_shader, "vert.spv");
+//		if (vResult.GetCompilationStatus() != shaderc_compilation_status_success)
+//			throw std::runtime_error("vert failed to compile!");
+//		std::vector<char> vertShaderCode = {vResult.begin(), vResult.end()};
+//
+//		auto fResult = compiler.CompileGlslToSpv(frag, shaderc_shader_kind::shaderc_fragment_shader, "frag.spv");
+//		if (fResult.GetCompilationStatus() != shaderc_compilation_status_success)
+//			throw std::runtime_error("vert failed to compile!");
+//		std::vector<char> fragShaderCode = {fResult.begin(), fResult.end()};
 
-		auto vResult = compiler.CompileGlslToSpv(vert, shaderc_shader_kind::shaderc_glsl_vertex_shader, "vert.spv");
-		if (vResult.GetCompilationStatus() != shaderc_compilation_status_success)
-			throw std::runtime_error("vert failed to compile!");
-		std::vector<char> vertShaderCode = {vResult.begin(), vResult.end()};
-
-		auto fResult = compiler.CompileGlslToSpv(frag, shaderc_shader_kind::shaderc_glsl_fragment_shader, "frag.spv");
-		if (fResult.GetCompilationStatus() != shaderc_compilation_status_success)
-			throw std::runtime_error("vert failed to compile!");
-		std::vector<char> fragShaderCode = {fResult.begin(), fResult.end()};
-
-//		auto vertShaderCode = readFile(
-//				"D:/G/WorkSpace/Git/OfflineWork/JadeHare/source/core/renderBackend/shaders/vert.spv");
-//		auto fragShaderCode = readFile(
-//				"D:/G/WorkSpace/Git/OfflineWork/JadeHare/source/core/renderBackend/shaders/frag.spv");
+		auto vertShaderCode = readFile(
+				"D:/G/WorkSpace/JadeHare/source/core/renderBackend/shader/vert.spv");
+		auto fragShaderCode = readFile(
+				"D:/G/WorkSpace/JadeHare/source/core/renderBackend/shader/frag.spv");
 
 		VkShaderModule vertShaderModule = createShaderModule(vertShaderCode);
 		VkShaderModule fragShaderModule = createShaderModule(fragShaderCode);
@@ -1107,7 +1109,7 @@ private:
 	static std::vector<char> readFile(const std::string& filename)
 	{
 		std::ifstream file(filename, std::ios::ate | std::ios::binary);
-		file.open(filename, std::ios::ate | std::ios::binary);
+//		file.open(filename, std::ios::ate | std::ios::binary);
 
 		if (!file.is_open())
 		{

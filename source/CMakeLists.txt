@@ -47,7 +47,7 @@ add_executable(render
 
 #target_link_libraries(main jadehare::jadehare)
 target_link_libraries(render
-        shaderc
+#        ShaderConductor
         Vulkan::Vulkan
         SDL2-static
         )
